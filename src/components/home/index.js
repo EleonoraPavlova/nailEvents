@@ -1,5 +1,4 @@
 import Header from "../home/Header"; // шапка сайта
-import Banner from "../home/Banner"; // осн баннер
 import About from "../home/About";  // про событие
 import Speakers from "../home/Speakers"; // спикеты
 import Statistics from "../home/Statistics"; //статистика
@@ -13,7 +12,6 @@ import Footer from "../home/Footer";     // контакт информация 
 export default function Home() {
     return (<div>
         {/* <Header /> */}
-        <Banner />
         <About />
         <Speakers />
         <Statistics />
