@@ -1,40 +1,35 @@
 /* poppins-200 - latin */
 @font-face {
-    font-family: Poppins200;
+    font-family: Roboto;
     font-style: normal;
-    font-weight: 200;
-    src: url("../fonts/poppins-v15-latin-200.woff2") format("woff2"),
-        url("../fonts/poppins-v15-latin-200.woff") format("woff");
+    font-weight: 300;
+    src: url("./Roboto-Light.ttf") format("woff2");
 }
 /* poppins-regular - latin */
 @font-face {
-    font-family: "Poppins400";
+    font-family: Roboto;
     font-style: normal;
     font-weight: 400;
-    src: url("../fonts/poppins-v15-latin-regular.woff2") format("woff2"),
-        url("../fonts/poppins-v15-latin-regular.woff") format("woff");
+    src: url("./Roboto-Regular.ttf") format("woff2");
 }
 /* poppins-500 - latin */
 @font-face {
-    font-family: "Poppins500";
+    font-family: Roboto;
     font-style: normal;
     font-weight: 500;
-    src: url("../fonts/poppins-v15-latin-500.woff2") format("woff2"),
-        url("../fonts/poppins-v15-latin-500.woff") format("woff");
+    src: url("./Roboto-Medium.ttf") format("woff2");
 }
 /* poppins-600 - latin */
 @font-face {
-    font-family: "Poppins600";
+    font-family: Roboto;
     font-style: normal;
-    font-weight: 600;
-    src: url("../fonts/poppins-v15-latin-600.woff2") format("woff2"),
-        url("../fonts/poppins-v15-latin-600.woff") format("woff");
+    font-weight: 700;
+    src: url("./Roboto-Bold.ttf") format("woff2");
 }
 /* poppins-700 - latin */
 @font-face {
-    font-family: "Poppins700";
+    font-family: Roboto;
     font-style: normal;
-    font-weight: 700;
-    src: url("../fonts/poppins-v15-latin-700.woff2") format("woff2"),
-        url("../fonts/poppins-v15-latin-700.woff") format("woff");
+    font-weight: 900;
+    src: url("./Roboto-Black.ttf") format("woff2");
 }
