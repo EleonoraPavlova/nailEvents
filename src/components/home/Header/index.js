@@ -44,17 +44,38 @@ export default function header() {
                     </div>
                 </div>
             </div>
-            <div className="topbar__main">
-                <div >
-                    <h1 className="text-title-big uppercase topbar__main-title">Nano Tech Beauty</h1>
+            <div className="topbar__main flex">
+                <div className="topbar__main-left">
+                    <div className="topbar__main-h1">
+                        <h1 className="text-title-big uppercase topbar__main-title">Nano Tech Beauty</h1>
+                    </div>
+                    <div className="topbar__main-slogan">
+                        <h4 className="text-subtitle white-text">Максимум можливостей - безліч інновацій – море задоволень</h4>
+                    </div>
+                    <div className="topbar__main-btn">
+                        <button type="button" className="topbar__button">Реєстрація</button>
+                    </div>
                 </div>
-                <div>
-                    <h4 className="text-subtitle white-text">Максимум можливостей - безліч інновацій – море задоволень</h4>
+                <div className="topbar__main-right">
+                    <div className="topbar__main-date flex">
+                        <div className="topbar__main-calendar">
+                            <img src={process.env.PUBLIC_URL + '/icon/calendar.png'} alt="calendar" target="_blank" />
+                        </div>
+                        <div>
+                            <p className="text-normal white-text"> 15 грудня / середа</p>
+                        </div>
+                    </div>
+                    <div className="topbar__main-date flex">
+                        <div className="topbar__main-time">
+                            <img src={process.env.PUBLIC_URL + '/icon/time.png'} alt="time" target="_blank" />
+                        </div>
+                        <div>
+                            <p className="text-normal white-text"> 12.00 - 20.00</p>
+                        </div>
+                    </div>
                 </div>
-                <div>
-                    <button type="button" className="topbar__button">Реєстрація</button>
-                </div>
+
             </div>
-        </div>
+        </div >
     </header >
 }
