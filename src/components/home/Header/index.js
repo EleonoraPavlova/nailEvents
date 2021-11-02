@@ -6,7 +6,7 @@ export default function Header() {
     const currentLanguage = i18n.language;
     return <header className="topbar">
         <div className="topbar__bg">
-            <div className="topbar__wrapper-nav">
+            <div className="topbar__wrapper-nav topbar_zindexed">
                 <div className="topbar__nav flex">
                     <ul className="topbar__box flex">
                         <li className="topbar__logo">
@@ -46,20 +46,15 @@ export default function Header() {
                             <img src={process.env.PUBLIC_URL + '/icon/youtube.png'} alt="youtube" target="_blank" /></a>
                     </div>
                     <div>
-                        <button onClick={() => i18n.changeLanguage(currentLanguage === 'ua' ? 'en' : 'ua')}>{ currentLanguage === 'ua' ? 'en' : 'ua' }</button>
+                        <button style={{padding: '20px'}} onClick={() => i18n.changeLanguage(currentLanguage === 'ua' ? 'en' : 'ua')}>{ currentLanguage === 'ua' ? 'en' : 'ua' }</button>
                     </div>
                 </div>
             </div>
-            <div className="topbar__main">
-                <div >
+            <div className="topbar__main topbar_zindexed">
                     <h1 className="text-title-big uppercase topbar__main-title">Nano Tech Beauty</h1>
-                </div>
-                <div>
                     <h4 className="text-subtitle white-text">{t('BANNER_SUBTITLE')}</h4>
-                </div>
-                <div>
                     <button type="button" className="topbar__button">{t('REGISTRATION')}</button>
-                </div>
+
             </div>
         </div>
     </header >
