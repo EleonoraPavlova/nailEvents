@@ -68,7 +68,6 @@ button {
   font-weight: 300;
   font-size: 16px;
   line-height: 30px;
-  color: #000000;
 }
 
 .text-regular{
@@ -86,12 +85,10 @@ button {
   font-style: normal;
   line-height: 32px;
   letter-spacing: 0em;
-  color: #000000;
 }
 
 .text-middle {
   font-family: 'Roboto';
-  font-weight: 500;
   font-size: 14px;
   font-weight: 500;
   line-height: 26px;
