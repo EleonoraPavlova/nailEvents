@@ -1,23 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.0c0b8126.chunk.css",
-    "main.js": "/static/js/main.859b1a18.chunk.js",
-    "main.js.map": "/static/js/main.859b1a18.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.d4e816ce.js",
-    "runtime-main.js.map": "/static/js/runtime-main.d4e816ce.js.map",
-    "static/js/2.f9c07298.chunk.js": "/static/js/2.f9c07298.chunk.js",
-    "static/js/2.f9c07298.chunk.js.map": "/static/js/2.f9c07298.chunk.js.map",
-    "static/js/3.74750ab8.chunk.js": "/static/js/3.74750ab8.chunk.js",
-    "static/js/3.74750ab8.chunk.js.map": "/static/js/3.74750ab8.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/main.0c0b8126.chunk.css.map": "/static/css/main.0c0b8126.chunk.css.map",
-    "static/js/2.f9c07298.chunk.js.LICENSE.txt": "/static/js/2.f9c07298.chunk.js.LICENSE.txt",
-    "static/media/App.scss": "/static/media/poppins-v15-latin-regular.c14093ce.woff"
+    "main.css": "/nailEvents/static/css/main.90068081.chunk.css",
+    "main.js": "/nailEvents/static/js/main.99264ecb.chunk.js",
+    "main.js.map": "/nailEvents/static/js/main.99264ecb.chunk.js.map",
+    "runtime-main.js": "/nailEvents/static/js/runtime-main.21c4a3aa.js",
+    "runtime-main.js.map": "/nailEvents/static/js/runtime-main.21c4a3aa.js.map",
+    "static/js/2.f9c07298.chunk.js": "/nailEvents/static/js/2.f9c07298.chunk.js",
+    "static/js/2.f9c07298.chunk.js.map": "/nailEvents/static/js/2.f9c07298.chunk.js.map",
+    "static/js/3.f468a251.chunk.js": "/nailEvents/static/js/3.f468a251.chunk.js",
+    "static/js/3.f468a251.chunk.js.map": "/nailEvents/static/js/3.f468a251.chunk.js.map",
+    "index.html": "/nailEvents/index.html",
+    "static/css/main.90068081.chunk.css.map": "/nailEvents/static/css/main.90068081.chunk.css.map",
+    "static/js/2.f9c07298.chunk.js.LICENSE.txt": "/nailEvents/static/js/2.f9c07298.chunk.js.LICENSE.txt",
+    "static/media/App.scss": "/nailEvents/static/media/Roboto-Regular.a8d6ac03.ttf",
+    "static/media/index.scss": "/nailEvents/static/media/banner.25aa0523.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.d4e816ce.js",
+    "static/js/runtime-main.21c4a3aa.js",
     "static/js/2.f9c07298.chunk.js",
-    "static/css/main.0c0b8126.chunk.css",
-    "static/js/main.859b1a18.chunk.js"
+    "static/css/main.90068081.chunk.css",
+    "static/js/main.99264ecb.chunk.js"
   ]
 }
