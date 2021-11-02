@@ -1,0 +1,31 @@
+@import "../../../variables.scss";
+@import "../../../mixins.scss";
+
+.topbar {
+    background-color: $base-color;
+    padding: 20px 125px;
+    &__icon {
+        width: 35px;
+        height: 35px;
+        margin-right: 25px;
+    }
+    &__box {
+        padding-bottom: 10px;
+    }
+    &__contact {
+        justify-content: flex-end;
+    }
+    &__point {
+        width: 20px;
+        height: 20px;
+        margin-right: 10px;
+    }
+    &__icon-point {
+        padding-right: 30px;
+    }
+    &__phone {
+        width: 15px;
+        height: 15px;
+        margin-right: 10px;
+    }
+}

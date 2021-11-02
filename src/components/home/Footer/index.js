@@ -1,6 +1,6 @@
 import './index.scss';
 
-export default function Safety() {  ///карантийные меры безопасности
+export default function Footer() {
     return <div className="draw">
         <div className="topbar__wrapper flex-between"></div>
     </div>
