@@ -3,7 +3,7 @@ import './index.scss';
 export default function header() {
     return <header className="topbar">
         <div className="topbar__bg">
-            <div className="topbar__content flex">
+            <div className="topbar__nav flex">
                 <ul className="topbar__box flex">
                     <li className="topbar__logo">
                         <img src={process.env.PUBLIC_URL + '/icon/logo.png'} alt="png" />
@@ -20,9 +20,18 @@ export default function header() {
                         <a href="#Новорічна дискотека">Новорічна дискотека</a></li>
                 </ul >
             </div>
-            <div>
-                <h1 className="text-title-big uppercase">Nano Tech Beauty</h1>
+            <div className="topbar__main">
+                <div >
+                    <h1 className="text-title-big uppercase title">Nano Tech Beauty</h1>
+                </div>
+                <div>
+                    <h4 className="text-subtitle white-text">Максимум можливостей - безліч інновацій – море задоволень</h4>
+                </div>
+                <div>
+                    <button type="button" className="topbar__button">Реєстрація</button>
+                </div>
             </div>
+
             {/* <div className="topbar__contact flex">
             <div className="topbar__icon">
                 <img src={process.env.PUBLIC_URL + '/icon/nailBurger.svg'} alt="nailBurger" />
