@@ -7,6 +7,7 @@ const localisation = {
     NAV_MENU_DISCO: "Новорічна дискотека",
     BANNER_SUBTITLE: "Максимум можливостей - безліч інновацій – море задоволень",
     REGISTRATION: "Реєстрація",
+    BANNER_DATE: "15 грудня / середа",
 
   }
 };
