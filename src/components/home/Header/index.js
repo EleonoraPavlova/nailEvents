@@ -3,7 +3,7 @@ import { useTranslation } from 'react-i18next';
 
 export default function Header() {
     const { t, i18n } = useTranslation();
-    const currentLanguage = i18n.language;
+    const currentLanguage = i18n.language; // пишется где есть переключатель
     return <header className="topbar">
         <div className="topbar__bg">
             <div className="topbar__wrapper-nav topbar_zindexed">
@@ -56,10 +56,10 @@ export default function Header() {
                         <h1 className="text-title-big uppercase topbar__main-title">Nano Tech Beauty</h1>
                     </div>
                     <div className="topbar__main-slogan">
-                        <h4 className="text-subtitle white-text">Максимум можливостей - безліч інновацій – море задоволень</h4>
+                        <h4 className="text-subtitle white-text">{t("BANNER_SUBTITLE")}</h4>
                     </div>
                     <div className="topbar__main-btn">
-                        <button type="button" className="topbar__button">Реєстрація</button>
+                        <button type="button" className="topbar__button">{t("REGISTRATION")}</button>
                     </div>
                 </div>
                 <div className="topbar__main-right">
@@ -68,7 +68,7 @@ export default function Header() {
                             <img src={process.env.PUBLIC_URL + '/icon/calendar.png'} alt="calendar" target="_blank" />
                         </div>
                         <div>
-                            <p className="text-normal white-text"> 15 грудня / середа</p>
+                            <p className="text-normal white-text">{t("BANNER_DATE")}</p>
                         </div>
                     </div>
                     <div className="topbar__main-date flex">

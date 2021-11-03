@@ -7,7 +7,7 @@ const localisation = {
     NAV_MENU_DISCO: "New Year's disco",
     BANNER_SUBTITLE: "Maximum opportunities - many innovations - dozens of fun",
     REGISTRATION: "Registration",
-
+    BANNER_DATE: "15th of December / Wednesday",
   }
 };
 
