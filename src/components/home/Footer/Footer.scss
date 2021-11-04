@@ -1,32 +1,34 @@
-// @import "../../../variables.scss";
-// @import "../../../mixins.scss";
+@import "../../../variables.scss";
+@import "../../../mixins.scss";
 
-// .footer {
-//   color: $color-white;
-//   font-size: 16px;
-//   line-height: 24px;
-//   background-color: $color-dark;
-//   &__upper-block {
-//     display: grid;
-//     grid-template-columns: 35% 15% 25% 25%;
-//     padding: 66px 120px 29px 101px;
-//     border-bottom: 1px solid $color-white;
-//     @include for-phone-only {
-//       display: none;
-//     }
-//   }
-//   .logo-wrapper {
-//     margin-bottom: 20px;
-//   }
-//   .desc {
-//     padding-bottom: 25px;
-//   }
-//   &__second-block {
-//     display: flex;
-//     justify-content: center;
-//     padding: 29px 0;
-//     @include for-phone-only {
-//       padding: 22px 54px;
-//     }
-//   }
-// }
+.footer {
+  color: $color-white;
+  font-size: 16px;
+  line-height: 24px;
+  background-color: $color-dark;
+  &__upper-block {
+    display: grid;
+    grid-template-columns: 35% 15% 25% 25%;
+    padding: 66px 120px 29px 101px;
+    border-bottom: 1px solid $color-white;
+    @include for-phone-only {
+      display: none;
+    }
+  }
+  &__logo-wrapper {
+    width: 30px;
+    height: 30px;
+    margin-bottom: 20px;
+  }
+  .desc {
+    padding-bottom: 25px;
+  }
+  &__second-block {
+    display: flex;
+    justify-content: center;
+    padding: 29px 0;
+    @include for-phone-only {
+      padding: 22px 54px;
+    }
+  }
+}

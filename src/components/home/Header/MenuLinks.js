@@ -1,7 +1,7 @@
 import MenuLink from "./MenuLink";
 const links = [
     {
-        href: '#Event-plan',
+        href: '#About the event',
         localizationKey: 'NAV_MENU_PLAN'
     },
     {
@@ -16,6 +16,11 @@ const links = [
         href: '#Speakers',
         localizationKey: 'NAV_MENU_SPEAKERS'
     },
+    // {
+    //     href: 'tel:+380 99 525 4865',
+    //     localizationKey: '+380 99 525 4865',
+    //     classes: 'topbar__social-tel'
+    // },
 
 ];
 export default function MenuLinks() {
