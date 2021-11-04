@@ -16,10 +16,6 @@ const links = [
         href: '#Speakers',
         localizationKey: 'NAV_MENU_SPEAKERS'
     },
-    {
-        href: '#New-Years-disco',
-        localizationKey: 'NAV_MENU_DISCO'
-    },
 
 ];
 export default function MenuLinks() {
