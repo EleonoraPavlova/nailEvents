@@ -1,0 +1,53 @@
+@import "../../../variables.scss";
+
+.check-mark {
+    width: 25px;
+    height: 25px;
+    &__checkmark {
+        margin-right: 20px;
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        display: block;
+        stroke-width: 2;
+        stroke: $color-white;
+        stroke-miterlimit: 10;
+        animation: fill 0.5s ease-in-out 0.5s forwards, scale 0.4s ease-in-out 0.9s both;
+    }
+    &__circle {
+        stroke-dasharray: 166;
+        stroke-dashoffset: 166;
+        stroke-width: 2;
+        stroke-miterlimit: 10;
+        stroke: $color-salat;
+        fill: none;
+        animation: stroke 0.6s $curve forwards;
+    }
+    &__check {
+        transform-origin: 50% 50%;
+        stroke-dasharray: 48;
+        stroke-dashoffset: 48;
+        animation: stroke 2.1s $curve forwards infinite;
+    }
+}
+
+@keyframes stroke {
+    100% {
+        stroke-dashoffset: 0;
+    }
+}
+
+@keyframes scale {
+    100% {
+        transform: none;
+    }
+    50% {
+        transform: scale3d(1.1, 1.1, 1);
+    }
+}
+
+@keyframes fill {
+    100% {
+        box-shadow: initial 0px 0px 0px 30px $color-salat;
+    }
+}

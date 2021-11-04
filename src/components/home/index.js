@@ -1,4 +1,4 @@
-import Header from "../home/Header"; // шапка сайта
+// import Header from "../home/Header"; // шапка сайта
 import About from "../home/About";  // про событие
 import Speakers from "../home/Speakers"; // спикеты
 import Statistics from "../home/Statistics"; //статистика
