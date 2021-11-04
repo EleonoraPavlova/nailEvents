@@ -11,14 +11,6 @@ const socials = [
         link: 'https://www.facebook.com/Nano-Tech-Beauty-105526615271644/?ref=pages_you_manage',
         iconName: 'facebook'
     },
-    {
-        link: 'tel:+380 99 525 4865',
-        iconName: 'call'
-    },
-    {
-        link: 'mailto: ntb.congress@gmail.com',
-        iconName: 'mail'
-    },
 ]
 
 export default function Socials() {

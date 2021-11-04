@@ -1,4 +1,4 @@
-import './index.scss';
+
 
 export default function OurPartners() {
     return <div className="our-partners">

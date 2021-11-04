@@ -1,18 +1,18 @@
-import './Footer.scss'
-import Slogan from "../Slogan";
-import ChunkFooter from '../ChunkFooter';
-import FooterColCenter from '../FooterColCenter';
-import { NavLink } from "react-router-dom";
-import { ReactComponent as FacebookIcon } from "../Icon/icons/facebook.svg";
-import { ReactComponent as InstaIcon } from "../Icon/icons/insta.svg";
-import { ReactComponent as TwitterIcon } from "../Icon/icons/twitter.svg";
-import { ReactComponent as LinkedinIcon } from "../Icon/icons/linkedin.svg";
+// import './Footer.scss'
+// import Slogan from "../Slogan";
+// // import ChunkFooter from '../ChunkFooter';
+// import FooterColCenter from '../FooterColCenter';
+// import { NavLink } from "react-router-dom";
+// import { ReactComponent as FacebookIcon } from "../Icon/icons/facebook.svg";
+// import { ReactComponent as InstaIcon } from "../Icon/icons/insta.svg";
+// import { ReactComponent as TwitterIcon } from "../Icon/icons/twitter.svg";
+// import { ReactComponent as LinkedinIcon } from "../Icon/icons/linkedin.svg";
 
 
 export default function Footer() {
   return (
     <div className='footer'>
-      <div className="footer__upper-block">
+      {/* <div className="footer__upper-block">
         <div className="footer__col-logo">
           <div className="logo-wrapper">
             <img src={process.env.PUBLIC_URL + '/icon/logo.png'} alt="logo" />
@@ -21,9 +21,9 @@ export default function Footer() {
             <Slogan />
           </div>
           <div>
-            <ChunkFooter />
-          </div>
-        </div>
+            {/* <ChunkFooter /> */}
+      {/* </div>
+        </div >
         <div>
           <FooterColCenter />
         </div>
@@ -48,11 +48,11 @@ export default function Footer() {
             <a href="https://www.linkedin.com" target="_blank" rel="noreferrer"><LinkedinIcon /></a>
           </div>
         </div>
-      </div>
-      <div className=" footer__second-block">
-        <p> ® 2021 Eleonora Pavlova. All rights recerved.</p>
-      </div>
-    </div>
+      </div > * /} */}
+      <div className=" footer__second-block" >
+        <p> ® 2021 All rights recerved.</p>
+      </div >
+    </div >
 
 
   )

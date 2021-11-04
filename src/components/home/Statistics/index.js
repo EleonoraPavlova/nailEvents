@@ -1,4 +1,4 @@
-import './index.scss';
+// import './index.scss';
 
 export default function Statistics() {  /// статистика 4 колонки
     return <div className="draw">
