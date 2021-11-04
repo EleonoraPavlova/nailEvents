@@ -1,6 +1,6 @@
 const localisation = {
   translation: {
-    NAV_MENU_PLAN: "Event plan",
+    NAV_MENU_PLAN: "About the event",
     NAV_MENU_REGISTER: "Registration/tickets",
     NAV_MENU_PARTICIPANTS: "Participants",
     NAV_MENU_SPEAKERS: "Speakers",
@@ -14,6 +14,7 @@ const localisation = {
     ABOUT_ITEM3: "Leading speakers of the beauty industry",
     ABOUT_ITEM4: "Master classes from the stars of nail aesthetics",
     ABOUT_ITEM5: "New Year's corporate party \" Nail New Year\" accompanied by an incendiary cover band  \" Wunderkind\" and DJ",
+    ROAD_MAP: "Road map",
   }
 };
 
