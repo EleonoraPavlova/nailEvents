@@ -58,14 +58,16 @@ export default function Header() {
                 <div className="topbar__main-about">
                     <h4 className="text-title-less">{t("ABOUT_TITLE")}</h4>
                 </div>
-                <div className="topbar__main-btn">
-                    <button type="button" className="topbar__button text-small uppercase">{t("REGISTRATION")}</button>
-                </div>
             </div>
-            <div>
-                <a href="tel:+380 99 525 4865" className="topbar__social-tel text-regular fonts-white">+380 99 525 4865</a>
+            <div className="topbar__button flex-center">
+                <button type="button" className="topbar__button-inside text-small">{t("REGISTRATION")}</button>
             </div>
+        </div>
+        <div className="topbar__social">
             <Socials />
+            <div className="topbar__social-tel flex-end">
+                <a href="tel:+380 99 525 4865" className="text-middle fonts-white">+38 099 525 4865</a>
+            </div>
         </div>
     </header >
 }
