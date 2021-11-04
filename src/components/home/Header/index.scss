@@ -10,7 +10,7 @@
     &__bg {
         position: relative;
         background-image: url(./banner.png);
-        height: 800px;
+        height: 650px;
         width: 100%;
         background-repeat: no-repeat;
         background-size: cover;
@@ -74,18 +74,43 @@
         &-slogan {
             margin-bottom: 60px;
         }
-        &-btn {
+        &-left {
             text-align: center;
         }
         &-date {
             margin-bottom: 50px;
         }
         &-calendar,
-        &-time {
+        &-time,
+        &-address {
             width: 55px;
             height: 55px;
             margin-right: 20px;
         }
+    }
+    &__button {
+        border-radius: 5px;
+        border: 1px solid $color-salat;
+        background: linear-gradient(to top, transparent 20%, #1b1b1b 50%, transparent 80%);
+        cursor: pointer;
+        margin: 20px;
+        width: 200px;
+        height: 60px;
+        letter-spacing: 6px;
+        box-shadow: 2px 4px 94px rgba(172, 245, 34, 0.7);
+        font-weight: bolder;
+        &:hover {
+            background-color: rgba(172, 245, 34, 0.3);
+        }
+    }
+    &__wrapper-buttonlng {
+        margin-left: 150px;
+    }
+    &__button-lng {
+        border-radius: 5px;
+        padding: 10px 15px;
+        color: $base-color;
+        background-color: $color-white;
     }
 }
 $an: 0;
