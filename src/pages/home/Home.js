@@ -1,6 +1,6 @@
 import Header from "../../components/home/Header"; // шапка сайта
 import About from "../../components/home/About";  // про событие
-import Speakers from "../../components/home/Speakers"; // спикеты
+import Speakers from "../../components/home/Speakers"; // спикеры
 import Statistics from "../../components/home/Statistics"; //статистика
 import OurPartners from "../../components/home/OurPartners";  // наши партнеры??
 import Subscribe from "../../components/home/Subscribe";  // подписка инста- розыгрыш

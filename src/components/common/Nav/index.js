@@ -4,7 +4,7 @@ import './index.scss';
 
 export default function Navigation() {
   const { t, i18n } = useTranslation();
-  const currentLanguage = i18n.language; 
+  const currentLanguage = i18n.language;
   return (
     <div className="navigationbar__wrapper">
       <div className="navigationbar__wrapper-buttonlng">
@@ -15,7 +15,7 @@ export default function Navigation() {
           <li className="navigationbar__logo">
             <img src={process.env.PUBLIC_URL + '/icon/logo.png'} alt="logo" />
           </li>
-          <MenuLinks />
+          <MenuLinks additionalClasses="text-middle navigationbar__box-item uppercase" />
         </ul >
         <div className="navigationbar__nav-right">
           <div className="navigationbar__nav-date flex">

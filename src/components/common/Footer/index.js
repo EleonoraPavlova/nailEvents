@@ -2,7 +2,7 @@ import './Footer.scss'
 import { useTranslation } from 'react-i18next';
 import Slogan from '../Slogan';
 import Logo from '../Logo';
-import MenuLinks from '../MenuLinks';
+import MenuLinks from '../Nav/MenuLinks';
 import Number from '../../common/Number';
 import Socials from '../Socials';
 
