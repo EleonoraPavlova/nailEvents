@@ -19,5 +19,5 @@ const links = [
 
 ];
 export default function MenuLinks() {
-    return links.map(link => <MenuLink {...link} />);
+    return links.map(link => <MenuLink additionalClasses="text-middle navigationbar__box-item uppercase" key={link.localizationKey} {...link} />);
 }

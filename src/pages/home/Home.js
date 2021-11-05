@@ -1,4 +1,4 @@
-// import Header from "../home/Header"; // шапка сайта
+import Header from "../../components/home/Header"; // шапка сайта
 import About from "../../components/home/About";  // про событие
 import Speakers from "../../components/home/Speakers"; // спикеты
 import Statistics from "../../components/home/Statistics"; //статистика
@@ -11,7 +11,7 @@ import Footer from "../../components/common/Footer";     // контакт ин�
 
 export default function Home() {
     return (<div>
-        {/* <Header /> */}
+        <Header />
         <About />
         <Speakers />
         <Statistics />
