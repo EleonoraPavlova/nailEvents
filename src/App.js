@@ -6,6 +6,12 @@ import Home from "./pages/home/Home";
 import Header from "./components/home/Header";
 import resources from './resources';
 
+import {
+  HashRouter as Router,
+  Switch,
+  Route,
+} from "react-router-dom";
+
 i18n
   .use(initReactI18next)
   .init({
@@ -17,12 +23,15 @@ i18n
     }
   });
 
-
 export default function BasicExample() {
   return (
-    <div>
+    <Router>
       <Header />
-      <Home />
-    </div>
+      <Switch>
+        <Route exact path="/">
+          <Home />
+        </Route>
+      </Switch>
+    </Router>
   )
 }
