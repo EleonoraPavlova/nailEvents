@@ -1,7 +1,9 @@
 import './index.scss';
 
 export default function Safety() {  ///карантийные меры безопасности
-    return <div className="draw">
-        <div className="topbar__wrapper flex-between"></div>
+    return <div className="safety">
+        <div className="safety">
+            <img src={process.env.PUBLIC_URL + '/icon/temperature.png'} alt="temperature" />
+        </div>
     </div>
 }

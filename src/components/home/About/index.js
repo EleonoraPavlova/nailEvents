@@ -4,8 +4,8 @@ import CheckMark from './CheckMark';
 
 export default function About() {
     const { t } = useTranslation();
-    return <main className="about">
-        <div className="about__container fonts-white">
+    return <main className="about gradient">
+        <div className="about__container">
             <div className="about__wrapper-left"></div>
             <div className="about__wrapper-right">
                 <div className="about__title">

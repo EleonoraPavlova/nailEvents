@@ -12,6 +12,7 @@
         background-repeat: no-repeat;
         background-size: cover;
         padding: 0px 80px;
+        background-position-y: -100px;
     }
 
     &__icon {
@@ -21,23 +22,22 @@
     }
     &__social {
         &-link {
-          padding-bottom: 10px;
+            padding-bottom: 10px;
         }
         &-tel {
-          &:hover {
-            text-shadow: 0 0 3px #ffffff, 0 0 5px #ffffff, 0 0 6px #ff00de,
-              0 0 10px #ff00de, 0 0 13px #ff00de;
-          }
+            &:hover {
+                text-shadow: 0 0 3px #ffffff, 0 0 5px #ffffff, 0 0 6px #ff00de, 0 0 10px #ff00de, 0 0 13px #ff00de;
+            }
         }
         &-wrap {
-          width: 45px;
-          height: 45px;
-          margin: 0 10px;
+            width: 45px;
+            height: 45px;
+            margin: 0 10px;
         }
         &-img {
-          transition: all 0.5s ease;
+            transition: all 0.5s ease;
         }
-      }
+    }
 
     &__main {
         &-h1 {
@@ -48,6 +48,8 @@
             line-height: 61px;
         }
         &-slogan {
+            font-size: 20px;
+            color: #848484;
             margin-bottom: 50px;
         }
         &-about {
@@ -86,7 +88,6 @@
             }
         }
     }
-
 }
 $an: 0;
 $topbar__social-wrap: 7;

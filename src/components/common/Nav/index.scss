@@ -40,10 +40,13 @@
     &-item {
       padding-top: 40px;
       padding-right: 90px;
-      a:hover {
-        color: #cd00cd;
-        padding-bottom: 3px;
-        border-bottom: 1px solid $color-shadowy;
+      a {
+        color: #000;
+        &:hover {
+          color: #cd00cd;
+          padding-bottom: 3px;
+          border-bottom: 1px solid $color-shadowy;
+        }
       }
     }
   }

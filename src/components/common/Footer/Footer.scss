@@ -1,0 +1,57 @@
+@import "../../../variables.scss";
+@import "../../../mixins.scss";
+
+.footer {
+  color: $color-white;
+  font-size: 13px;
+  line-height: 20px;
+  background-color: $color-dark;
+  &__upper-block {
+    display: grid;
+    grid-template-columns: 35% 20% 20% 15%;
+    padding: 50px 80px 29px 80px;
+    border-bottom: 1px solid $color-white;
+    @include for-phone-only {
+      display: none;
+    }
+  }
+  &__logo-wrapper {
+    width: 30px;
+    height: 30px;
+    margin-bottom: 20px;
+  }
+  &__desc {
+    font-size: 12px;
+    padding-bottom: 25px;
+  }
+  &__site {
+    font-size: 10px;
+  }
+  &__col {
+    &-link {
+      a {
+        color: $color-white;
+      }
+    }
+    &-item {
+      padding-bottom: 10px;
+    }
+    &-number {
+      margin-top: 20px;
+      a {
+        &:hover {
+          text-shadow: 0 0 3px #ffffff, 0 0 5px #ffffff, 0 0 6px #ff00de, 0 0 10px #ff00de;
+        }
+      }
+    }
+  }
+  &__second-block {
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+    @include for-phone-only {
+      padding: 22px 54px;
+    }
+  }
+}

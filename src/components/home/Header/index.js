@@ -1,6 +1,9 @@
 import './index.scss';
 import { useTranslation } from 'react-i18next';
-import Socials from './Socials';
+import Socials from '../../common/Socials';
+import Slogan from '../../common/Slogan';
+import Number from '../../common/Number';
+
 
 export default function Header() {
     const { t } = useTranslation();
@@ -11,7 +14,7 @@ export default function Header() {
                     <h1 className="text-title-big topbar__main-title">Nano Tech Beauty</h1>
                 </div>
                 <div className="topbar__main-slogan">
-                    <h4 className="text-subtitle">{t("BANNER_SUBTITLE")}</h4>
+                    <Slogan />
                 </div>
                 <div className="topbar__main-about">
                     <h4 className="text-title-less">{t("ABOUT_TITLE")}</h4>
@@ -21,10 +24,13 @@ export default function Header() {
                 <button type="button" className="topbar__button-inside text-small">{t("REGISTRATION")}</button>
             </div>
             <div className="topbar__social">
-                <Socials />
-                <div className="topbar__social-tel flex-end">
-                    <a href="tel:+380 99 525 4865" className="text-middle fonts-white">+38 099 525 4865</a>
+                <div className="topbar__social-link flex-end">
+                    <Socials />
                 </div>
+                <div className="topbar__social-tel flex-end">
+                    <Number />
+                </div>
+
             </div>
         </div>
     </header >
