@@ -24,5 +24,5 @@ const links = [
 
 ];
 export default function MenuLinks() {
-    return links.map(link => <MenuLink {...link} />);
+    return links.map(link => <MenuLink key={link.localizationKey} {...link} />);
 }

@@ -3,8 +3,8 @@ import i18n from "i18next";
 import { initReactI18next } from "react-i18next";
 import "./App.scss"
 import Home from "./pages/home/Home";
-import Header from "./components/home/Header";
 import resources from './resources';
+import Nav from './components/common/Nav'
 
 import {
   HashRouter as Router,
@@ -26,7 +26,7 @@ i18n
 export default function BasicExample() {
   return (
     <Router>
-      <Header />
+      <Nav />
       <Switch>
         <Route exact path="/">
           <Home />
