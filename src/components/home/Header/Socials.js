@@ -1,4 +1,4 @@
-import { useTranslation } from 'react-i18next';
+
 import SocialLink from './SocialLink';
 
 
@@ -14,12 +14,7 @@ const socials = [
 ]
 
 export default function Socials() {
-    const { i18n } = useTranslation();
-    const currentLanguage = i18n.language; // пишется где есть переключатель
-    return (<div className="topbar__social flex">
+    return (<div className="topbar__social-link flex-end">
         {socials.map(social => <SocialLink {...social} />)}
-        <div className="topbar__wrapper-buttonlng">
-            <button className="topbar__button-lng text-middle" onClick={() => i18n.changeLanguage(currentLanguage === 'ua' ? 'en' : 'ua')}>{currentLanguage === 'ua' ? 'en' : 'ua'}</button>
-        </div>
     </div>)
 }
