@@ -14,7 +14,7 @@ const socials = [
 ]
 
 export default function Socials() {
-    return (<div className="topbar__social-link flex-end">
+    return (<div className=" flex">
         {socials.map(social => <SocialLink {...social} />)}
     </div>)
 }

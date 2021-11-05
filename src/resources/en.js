@@ -15,6 +15,7 @@ const localisation = {
     ABOUT_ITEM4: "Master classes from the stars of nail aesthetics",
     ABOUT_ITEM5: "New Year's corporate party \" Nail New Year\" accompanied by an incendiary cover band  \" Wunderkind\" and DJ",
     ROAD_MAP: "Road map",
+    LOCATION: "Shopping center \" Gorodok Gallery\" ",
   }
 };
 

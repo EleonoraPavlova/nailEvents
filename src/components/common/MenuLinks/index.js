@@ -1,4 +1,5 @@
 import MenuLink from "./MenuLink";
+import './index.scss';
 const links = [
     {
         href: '#About the event',
@@ -18,6 +19,6 @@ const links = [
     },
 
 ];
-export default function MenuLinks() {
-    return links.map(link => <MenuLink {...link} />);
+export default function MenuLinks(props) {
+    return links.map(link => <MenuLink additionalClasses={props.additionalClasses} {...link} />);
 }

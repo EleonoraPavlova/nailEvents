@@ -6,7 +6,7 @@ import OurPartners from "../../components/home/OurPartners";  // наши пар
 import Subscribe from "../../components/home/Subscribe";  // подписка инста- розыгрыш
 import Safety from "../../components/home/Safety";     // меры безопасности
 import Map from "../../components/home/Map";        // карта проезда
-import Footer from "../../components/home/Footer";     // контакт информация и соц сети
+import Footer from "../../components/common/Footer";     // контакт информация и соц сети
 
 
 export default function Home() {

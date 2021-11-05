@@ -15,6 +15,7 @@ const localisation = {
     ABOUT_ITEM4: "Майстер класи від зірок нігтьової естетики",
     ABOUT_ITEM5: "Новорічний корпоратив «Nail New Year» під запалюючий супровід кавєр- бенд «Wunderkind» та DJ",
     ROAD_MAP: "Карта проїзду",
+    LOCATION: "ТЦ «Gorodok Gallery»",
   }
 };
 
