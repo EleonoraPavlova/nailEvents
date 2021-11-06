@@ -16,11 +16,17 @@ const localisation = {
     ABOUT_ITEM5: "Новорічний корпоратив «Nail New Year» під запалюючий супровід кавєр- бенд «Wunderkind» та DJ",
     ROAD_MAP: "Карта проїзду",
     LOCATION: "ТЦ «Gorodok Gallery»",
+    STATISTICS_VISITORS: "Відвідувачів повязаних з нейл індустрією",
+    STATISTICS_NAILBUYERS: "Нейл байерів візьмуть участь у заході",
+    STATISTICS_COMPANY: "Компаній виробників візьмуть участь у події",
+    STATISTICS_EXPERTS: "Всесвітньо відомих експертів серед наших спікерів",
     SAFETY_MEASURES: "Заходи безпеки",
     PROTECTION_MEANS: 'Заходи захисту',
     PROTECTION_MEANS_SUBTITLE: 'Вхід на конференцію тільки в масці. Наявність антисептиків по периметру приміщення',
     TEMPERATURE_SCREENING: 'Температурний скрініг на вході.',
-    TEMPERATURE_SCREENING_SUBTITLE: 'Вимірювання температури тіла кожному відвідувачу.'
+    TEMPERATURE_SCREENING_SUBTITLE: 'Вимірювання температури тіла кожному відвідувачу.',
+    FOOD_TITLE: 'Безпечне харчування',
+    FOOD_SUBTITLE: 'Під час кава-брейку кожній людині надається індівідуальний посуд',
 
   }
 };

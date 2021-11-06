@@ -16,11 +16,17 @@ const localisation = {
     ABOUT_ITEM5: "New Year's corporate party \" Nail New Year\" accompanied by an incendiary cover band  \" Wunderkind\" and DJ",
     ROAD_MAP: "Road map",
     LOCATION: "Shopping center \" Gorodok Gallery\" ",
+    STATISTICS_VISITORS: "Visitors associated with the nail industry",
+    STATISTICS_NAILBUYERS: "Nail buyers will take part in the event",
+    STATISTICS_COMPANY: "Manufacturers will take part in the event",
+    STATISTICS_EXPERTS: "World-renowned experts among our speakers",
     SAFETY_MEASURES: "Safety measures",
     PROTECTION_MEANS: 'Means of protection',
     PROTECTION_MEANS_SUBTITLE: 'Admission to the conference is only in a mask. Antiseptics around the perimeter.',
     TEMPERATURE_SCREENING: 'Temperature screening on entrance.',
-    TEMPERATURE_SCREENING_SUBTITLE: 'Measurement of body temperature for each visitor.'
+    TEMPERATURE_SCREENING_SUBTITLE: 'Measurement of body temperature for each visitor.',
+    FOOD_TITLE: 'Safe food',
+    FOOD_SUBTITLE: 'During the coffee break, each person is given individual dishes',
 
   }
 };

@@ -1,5 +1,16 @@
-.safety-wrapper {
-  .measures-wrapper {
+@import "../../../variables.scss";
+@import "../../../mixins.scss";
+
+.safety {
+  &__wrapper {
+    padding: 0 100px;
+    background-color: $color-salat;
+  }
+  &__title {
+    padding-top: 45px;
+    text-align: center;
+  }
+  &__measures {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 50px;
