@@ -1,9 +1,14 @@
+import { useTranslation } from 'react-i18next';
 import './index.scss';
 
+import Measures from './Measures';
+
 export default function Safety() {  ///карантийные меры безопасности
-    return <div className="safety">
-        <div className="safety">
-            <img src={process.env.PUBLIC_URL + '/icon/temperature.png'} alt="temperature" />
+    const { t } = useTranslation();
+    return <div className="safety-wrapper">
+        <h2>{t('SAFETY_MEASURES')}</h2>
+        <div className="measures-wrapper">
+            <Measures />
         </div>
     </div>
 }
