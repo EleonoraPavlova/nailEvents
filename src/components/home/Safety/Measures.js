@@ -12,8 +12,12 @@ const measures = [
     subtitle: 'TEMPERATURE_SCREENING_SUBTITLE',
     iconName: 'scanning'
   },
-  
-  
+  {
+    title: 'FOOD_TITLE',
+    subtitle: 'FOOD_SUBTITLE',
+    iconName: 'food'
+  },
+
 
 ];
 
