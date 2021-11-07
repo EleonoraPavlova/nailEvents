@@ -33,11 +33,51 @@ export default function Footer() {
           </div>
         </div>
         <Socials />
+        <div className="footer__col-advertising">
+          <div className="footer__col-advertising-text">
+            <p>{t("FOOTER_COL_ADVERTISING")} by Pavlova Eleonora</p>
+          </div>
+          <div className="flex">
+            <div className="footer__col-advertising-icon">
+              <img src={process.env.PUBLIC_URL + '/images/my-foto.png'} alt="foto" />
+            </div>
+            <div className="footer__col-advertising-contact flex">
+              <div className="flex">
+                <img src={process.env.PUBLIC_URL + '/icon/footer-call.svg'} alt="call" className="icon-size-little" />
+              </div>
+              <a href="tel:+380687527904" className="fonts-white">+380687527904
+                <p className="fonts-white">Viber, Telegram</p>
+              </a>
+            </div>
+          </div>
+          <div className="footer__col-advertising-box flex-end">
+            <div className="footer__col-advertising-insta">
+              <a href="https://www.instagram.com/pavl0vaelen/?hl=ru" target="_blank" rel="noreferrer">
+                <img src={process.env.PUBLIC_URL + '/icon/my-insta.svg'} alt="insta" className="icon-size-little" />
+              </a>
+            </div>
+            <div className="footer__col-advertising-mail">
+              <a href="mailto:nebrudko18@gmail.com" target="_blank" rel="noreferrer">
+                <img src={process.env.PUBLIC_URL + '/icon/my-mail.svg'} alt="mail" className="icon-size-little" />
+              </a>
+            </div>
+            <div className="footer__col-advertising-git">
+              <a href="https://github.com/EleonoraPavlova" target="_blank" rel="noreferrer">
+                <img src={process.env.PUBLIC_URL + '/icon/my-github.svg'} alt="github" className="icon-size-little" />
+              </a>
+            </div>
+            <div className="footer__col-advertising-skype">
+              <a href="https://join.skype.com/invite/Kf7ZnFPrzv6R" target="_blank" rel="noreferrer">
+                <img src={process.env.PUBLIC_URL + '/icon/skype.svg'} alt="skype" className="icon-size-little" />
+              </a>
+            </div>
+          </div>
+        </div>
       </div>
       <div className="footer__second-block" >
         <p> ® 2021 All rights recerved.</p>
       </div >
-    </div>
+    </div >
 
   )
 }
