@@ -3,17 +3,17 @@
 
 .safety {
   &__wrapper {
-    padding: 0 100px;
-    background-color: $color-salat;
+    padding: 0 100px 50px 100px;
+    background-color: $color-gray;
   }
   &__title {
-    padding-top: 45px;
+    padding: 45px 0;
     text-align: center;
   }
   &__measures {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 50px;
+    grid-gap: 20px;
     .measure-icon {
       width: 50px;
       height: 50px;

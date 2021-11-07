@@ -17,6 +17,21 @@ const measures = [
     subtitle: 'FOOD_SUBTITLE',
     iconName: 'food'
   },
+  {
+    title: 'PASSPORT_TITLE',
+    subtitle: '',
+    iconName: 'passport'
+  },
+  {
+    title: 'RESTRICTIONS_TITLE',
+    subtitle: 'RESTRICTIONS_SUBTITLE',
+    iconName: 'restrictions'
+  },
+  {
+    title: 'DISTANCE_TITLE',
+    subtitle: 'DISTANCE_SUBTITLE',
+    iconName: 'distance'
+  },
 
 
 ];

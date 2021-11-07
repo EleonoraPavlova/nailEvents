@@ -23,11 +23,16 @@ const localisation = {
     SAFETY_MEASURES: "Safety measures",
     PROTECTION_MEANS: 'Means of protection',
     PROTECTION_MEANS_SUBTITLE: 'Admission to the conference is only in a mask. Antiseptics around the perimeter.',
-    TEMPERATURE_SCREENING: 'Temperature screening on entrance.',
+    TEMPERATURE_SCREENING: 'Temperature screening on entrance',
     TEMPERATURE_SCREENING_SUBTITLE: 'Measurement of body temperature for each visitor.',
     FOOD_TITLE: 'Safe food',
-    FOOD_SUBTITLE: 'During the coffee break, each person is given individual dishes',
-
+    FOOD_SUBTITLE: 'During the coffee break, each person is given individual dishes.',
+    PASSPORT_TITLE: 'PCR test or a vaccination certificate',
+    RESTRICTIONS_TITLE: 'Compliance with requirements of the Ministry of Healthcare of Ukraine',
+    RESTRICTIONS_SUBTITLE: 'The number of attendees is restricted in accordance with the rules of holding mass events.',
+    DISTANCE_TITLE: 'Social distancing',
+    DISTANCE_SUBTITLE: 'The distance between chairs in the conference hall is not less than 1.5 meters.',
+    FOOTER_COL_ADVERTISING: 'Website development and creation',
   }
 };
 
