@@ -20,15 +20,17 @@ export default function Header() {
                     <h4 className="text-title-less">{t("ABOUT_TITLE")}</h4>
                 </div>
             </div>
-            <div className="topbar__button flex-center">
-                <button type="button" className="topbar__button-inside text-small">{t("REGISTRATION")}</button>
-            </div>
-            <div className="topbar__social">
-                <div className="topbar__social-link flex-end">
-                    <Socials />
+            <div className="topbar__footer">
+                <div className="topbar__button flex-center">
+                    <button type="button" className="topbar__button-inside text-small">{t("REGISTRATION")}</button>
                 </div>
-                <div className="topbar__social-tel flex-end">
-                    <Number />
+                <div className="topbar__social">
+                    <div className="topbar__social-link flex-end">
+                        <Socials />
+                    </div>
+                    <div className="topbar__social-tel flex-end">
+                        <Number />
+                    </div>
                 </div>
             </div>
         </div>

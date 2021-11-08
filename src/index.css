@@ -81,11 +81,11 @@ button {
 
 .text-normal {
   font-family: 'Roboto';
-  font-weight: 500;
+  font-weight: 400;
   font-size: 16px;
   font-style: normal;
   line-height: 32px;
-  letter-spacing: 0em;
+  letter-spacing: 1px;
 }
 
 .text-middle {
@@ -126,6 +126,7 @@ button {
   font-family: 'Roboto';
   font-weight: 500;
   font-size: 36px;
+  line-height: 45px;
 }
 
 .text-title-big {
@@ -149,3 +150,7 @@ button {
 color: #505050;
 }
 
+.uppercase-white {
+  color: white;
+  text-transform: uppercase;
+}

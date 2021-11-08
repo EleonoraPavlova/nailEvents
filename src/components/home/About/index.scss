@@ -3,28 +3,16 @@
 
 .about {
     position: relative;
+    background-image: url(./about-banner.jpg);
+    height: 600px;
     width: 100%;
-    max-width: 100%;
-    background: crimson;
-    box-shadow: 0 -150px 70px -120px teal inset, 0 -220px 70px -120px yellowgreen inset, 0 -280px 70px -120px gold inset;
-    animation: bg 4s infinite alternate;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0 100px;
     &__container {
-        padding: 60px 0;
+        padding: 100px 0;
         display: grid;
-        gap: 60px;
-        grid-template-columns: 40% 60%;
-    }
-    &__wrapper-left {
-        position: relative;
-        background-image: url(./about.jpg);
-        height: 100%;
-        width: 100%;
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
-    &__title {
-        text-align: center;
-        margin: 50px 0;
+        grid-template-columns: 60% 40%;
     }
     &__decs {
         &-item {
@@ -35,17 +23,26 @@
             margin-right: 25px;
         }
     }
-}
-
-@keyframes bg {
-    50% {
-        background: pink;
-        box-shadow: 0 -140px 70px -120px mediumorchid inset, 0 -210px 70px -120px teal inset,
-            0 -280px 70px -120px plum inset;
+    &::after {
+        position: absolute;
+        content: "";
+        display: block;
+        width: 25px;
+        height: 25px;
+        border-left: 1px solid $color-white;
+        border-bottom: 1px solid $color-white;
+        top: 466px;
+        left: 148px;
     }
-}
-.gradient {
-    margin: 0;
-    padding: 0 120px;
-    background: #eee;
+    &::before {
+        position: absolute;
+        content: "";
+        display: block;
+        width: 25px;
+        height: 25px;
+        border-top: 1px solid #ffffff;
+        border-right: 1px solid #ffffff;
+        top: 106px;
+        left: 915px;
+    }
 }

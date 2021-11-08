@@ -7,6 +7,7 @@ import Statistics from "../../components/home/Statistics"; //статистик�
 import Safety from "../../components/home/Safety";     // меры безопасности
 import Map from "../../components/home/Map";        // карта проезда
 import Program from "../../components/home/Program";
+import LearnMore from "../../components/home/LearnMore";
 
 
 export default function Home() {
@@ -19,6 +20,7 @@ export default function Home() {
         {/* <OurPartners /> */}
         {/* <Subscribe /> */}
         <Safety />
+        <LearnMore />
         <Map />
     </div>
     )

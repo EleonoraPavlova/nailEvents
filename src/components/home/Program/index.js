@@ -3,10 +3,10 @@ import { useTranslation } from 'react-i18next';
 import ProgramItem from './ProgramItem';
 import './index.scss';
 
+
 const items = [
   {
     timeSlot: '10:00-11:00',
-    // замінити тайтл на ключі в кожному обєкті
     title: 'PROGRAM_ITEM',
 
   },
