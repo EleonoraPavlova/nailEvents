@@ -1,6 +1,6 @@
 import './index.scss';
 import Statistic from './Statistic';
-import { useTranslation } from 'react-i18next';
+// import { useTranslation } from 'react-i18next';
 
 
 const statistics = [
@@ -27,7 +27,7 @@ const statistics = [
 ]
 
 export default function Statistics() {
-    const { t } = useTranslation();
+    // const { t } = useTranslation();
     return <div className="statistics wrapper">
         <div className="flex-between">
             {statistics.map(statistic => <Statistic {...statistic} />)}

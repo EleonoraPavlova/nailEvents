@@ -20,6 +20,16 @@ const localisation = {
     STATISTICS_NAILBUYERS: "Нейл байерів візьмуть участь у заході",
     STATISTICS_COMPANY: "Компаній виробників візьмуть участь у події",
     STATISTICS_EXPERTS: "Всесвітньо відомих експертів серед наших спікерів",
+    PROGRAM_TITLE: 'План заходу ',
+    PROGRAM_ITEM: 'Реєстрація',
+    PROGRAM_ITEM1: 'Працює DJ',
+    PROGRAM_ITEM2: 'Вітальне слово організаторів',
+    PROGRAM_ITEM3: 'Презентации',
+    PROGRAM_ITEM4: 'Шоу Nail Fashion Day',
+    PROGRAM_ITEM5: 'Новорічний корпоратив',
+    PROGRAM_ITEM6: 'Спікер',
+    BUTTON_CLICK: 'Згорнути',
+    BUTTON_ALL: 'Вся програма',
     SAFETY_MEASURES: "Заходи безпеки",
     PROTECTION_MEANS: 'Заходи захисту',
     PROTECTION_MEANS_SUBTITLE: 'Вхід на конференцію тільки в масці. Наявність антисептиків по периметру приміщення',
@@ -33,6 +43,10 @@ const localisation = {
     DISTANCE_TITLE: 'Соціальне дистанціювання',
     DISTANCE_SUBTITLE: 'Відстань між стільцями у конференц-залі не менше 1,5 метра.',
     FOOTER_COL_ADVERTISING: 'Розробка та створення сайту',
+    BUY_TICKET: 'Купити квиток',
+    MASTERS: 'майстрам',
+    MEMBERS: 'участникам',
+    BUYERS: 'байерам',
   }
 };
 

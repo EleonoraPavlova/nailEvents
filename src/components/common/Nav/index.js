@@ -1,6 +1,7 @@
 import { useTranslation } from 'react-i18next';
 import MenuLinks from './MenuLinks';
 import './index.scss';
+import Logo from '../Logo';
 
 export default function Navigation() {
   const { t, i18n } = useTranslation();
@@ -13,7 +14,7 @@ export default function Navigation() {
       <div className="navigationbar__wrapper-nav">
         <ul className="navigationbar__box">
           <li className="navigationbar__logo">
-            <img src={process.env.PUBLIC_URL + '/icon/logo.png'} alt="logo" />
+            <Logo />
           </li>
           <MenuLinks additionalClasses="text-middle navigationbar__box-item uppercase" />
         </ul >

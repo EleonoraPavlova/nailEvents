@@ -4,12 +4,12 @@ import CheckMark from './CheckMark';
 
 export default function About() {
     const { t } = useTranslation();
-    return <main className="about gradient">
+    return <main className="about gradient" id="about">
         <div className="about__container">
             <div className="about__wrapper-left"></div>
             <div className="about__wrapper-right">
                 <div className="about__title">
-                    <p className="text-title-less">{t("ABOUT_TITLE")}</p>
+                    <p className="text-title-less" id="About the event">{t("ABOUT_TITLE")}</p>
                 </div>
                 <ul className="about__decs">
                     <li className="about__decs-item">

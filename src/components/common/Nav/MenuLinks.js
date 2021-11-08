@@ -1,11 +1,15 @@
 import MenuLink from "./MenuLink";
 const links = [
     {
-        href: '#About the event',
+        href: {
+            pathname: "/",
+            hash: '#about',
+
+        },
         localizationKey: 'NAV_MENU_PLAN'
     },
     {
-        href: '#Registration/tickets',
+        href: '/tickets',
         localizationKey: 'NAV_MENU_REGISTER'
     },
     {
