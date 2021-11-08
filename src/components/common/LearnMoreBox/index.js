@@ -6,7 +6,9 @@ export default function LearnMoreBox(props) {
         <div className="learn-box__sketch">
             <p className="text-thin">{props.description}</p>
         </div>
-        <div className="flex-end"></div>
+        <div className="flex-end">
+            <img className="advantageIcon__icon" alt={props.imageName} src={process.env.PUBLIC_URL + "/images/" + props.imageName + '.png'} />
+        </div>
     </div>
 
 }
