@@ -20,6 +20,16 @@ const localisation = {
     STATISTICS_NAILBUYERS: "Nail buyers will take part in the event",
     STATISTICS_COMPANY: "Manufacturers will take part in the event",
     STATISTICS_EXPERTS: "World-renowned experts among our speakers",
+    PROGRAM_TITLE: 'Event plan',
+    PROGRAM_ITEM: 'Registration',
+    PROGRAM_ITEM1: 'The DJ works',
+    PROGRAM_ITEM2: 'Welcome speech from the organizers',
+    PROGRAM_ITEM3: 'Presentations',
+    PROGRAM_ITEM4: 'Nail Fashion Day show',
+    PROGRAM_ITEM5: 'New Years corporate party',
+    PROGRAM_ITEM6: 'Speaker',
+    BUTTON_CLICK: 'Collapse',
+    BUTTON_ALL: 'All program',
     SAFETY_MEASURES: "Safety measures",
     PROTECTION_MEANS: 'Means of protection',
     PROTECTION_MEANS_SUBTITLE: 'Admission to the conference is only in a mask. Antiseptics around the perimeter.',
@@ -33,6 +43,10 @@ const localisation = {
     DISTANCE_TITLE: 'Social distancing',
     DISTANCE_SUBTITLE: 'The distance between chairs in the conference hall is not less than 1.5 meters.',
     FOOTER_COL_ADVERTISING: 'Website development and creation',
+    BUY_TICKET: 'buy a ticket',
+    MASTERS: 'masters',
+    MEMBERS: 'members',
+    BUYERS: 'buyers',
   }
 };
 
