@@ -49,6 +49,8 @@ const localisation = {
     MASTERS: 'майстрам',
     MEMBERS: 'участникам',
     BUYERS: 'байерам',
+    LEARN_MORE: 'Залишилися питання? Напиши нам!',
+    LEARN_MORE1: '',
   }
 };
 

@@ -49,6 +49,8 @@ const localisation = {
     MASTERS: 'masters',
     MEMBERS: 'members',
     BUYERS: 'buyers',
+    LEARN_MORE: 'Do you still have questions? Write to us!',
+    LEARN_MORE1: '',
   }
 };
 
