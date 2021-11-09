@@ -37,5 +37,5 @@ const measures = [
 ];
 
 export default function Measures() {
-  return measures.map(measure => <Measure {...measure} />)
+  return measures.map(measure => <Measure key={measure.iconName} {...measure} />)
 }

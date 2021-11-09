@@ -30,7 +30,7 @@ export default function Statistics() {
     // const { t } = useTranslation();
     return <div className="statistics wrapper">
         <div className="flex-between">
-            {statistics.map(statistic => <Statistic {...statistic} />)}
+            {statistics.map(statistic => <Statistic key={statistic.iconName} {...statistic} />)}
         </div>
     </div>
 }

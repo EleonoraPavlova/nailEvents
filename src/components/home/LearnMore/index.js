@@ -33,7 +33,7 @@ const items = [
 export default function LearnMore() {
     return (<div className="more">
         <div className="flex-between">
-            {items.map(item => <LearnMoreBox title={item.title} additionalClasses={item.classes} textbtn={item.textbtn} />)}
+            {items.map(item => <LearnMoreBox  key={item.title}  title={item.title} additionalClasses={item.classes} textbtn={item.textbtn} />)}
         </div>
     </div>)
 }
