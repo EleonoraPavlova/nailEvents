@@ -54,7 +54,7 @@ export default function Program() {
     <div className="program__wrap-title">
       <h4 className="program__title uppercase">{t("PROGRAM_TITLE")}</h4>
     </div>
-    {target.map(slot => <ProgramItem {...slot} />)}
+    {target.map(slot => <ProgramItem key={slot.title} {...slot} />)}
     <div className="flex-center">
       <button onClick={() => setIsShown(!isShown)} className="program__button text-normal fonts-white">{t(isShown ? 'BUTTON_CLICK' : 'BUTTON_ALL')}</button>
     </div>
