@@ -1,11 +1,38 @@
 @import "../../../variables.scss";
 
 .learn-box {
+    padding: 0 12px;
+    justify-content: center;
     background-color: #ffffff;
     border-radius: 20px;
-    width: 378px;
-    height: 348px;
+    width: 290px;
+    height: 228px;
+    flex-direction: column;
+    -moz-box-shadow: 0px 0px 14px #fc0fc0;
+    -webkit-box-shadow: 0px 0px 14px #fc0fc0;
+    box-shadow: 1px 1px 19px #fc0fc0;
     &:hover {
         background-color: $color-gray;
+    }
+    &__title {
+        text-align: center;
+        padding-bottom: 20px;
+        font-size: 20px;
+        line-height: 35px;
+    }
+    &__button-blue {
+        background-image: url(./button-blue.png);
+    }
+    &__button-pink {
+        background-image: url(./button-pink.png);
+    }
+    &__button-green {
+        background-image: url(./button-green.png);
+    }
+    &__button-darkblue {
+        background-image: url(./button-darkblue.png);
+    }
+    &__button-orang {
+        background-image: url(./button-orang.png);
     }
 }

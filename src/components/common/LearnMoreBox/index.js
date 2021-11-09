@@ -1,14 +1,11 @@
 import './index.scss';
+import { useTranslation } from 'react-i18next';
+import ButtonLearn from '../ButtonLearn';
 
 export default function LearnMoreBox(props) {
-    return <div className="learn-box" >
-        <div className="learn-box__title text-subtitle">{props.title}</div>
-        <div className="learn-box__sketch">
-            <p className="text-thin">{props.description}</p>
-        </div>
-        <div className="flex-end">
-            <img className="advantageIcon__icon" alt={props.imageName} src={process.env.PUBLIC_URL + "/images/" + props.imageName + '.png'} />
-        </div>
+    const { t } = useTranslation();
+    return <div className="learn-box flex">
+        <div className="learn-box__title">{t(props.title)}</div>
+        <ButtonLearn additionalClasses={props.additionalClasses} textbtn={props.textbtn} />
     </div>
-
 }

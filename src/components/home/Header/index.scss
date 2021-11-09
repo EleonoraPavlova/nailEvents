@@ -7,14 +7,22 @@
     &__bg {
         position: relative;
         background-image: url(./banner.jpg);
-        width: 100%;
         background-repeat: no-repeat;
         background-size: cover;
         padding: 0px 80px 18px 80px;
         background-position-y: -83px;
+        @include for-phone-only {
+            padding: 0px 8px 8px 0;
+            background-image: url(./banner-mobile.png);
+            height: 255px;
+            background-position-y: -5px;
+        }
     }
     &__main {
         padding: 0 70px;
+        @include for-phone-only {
+            padding: 0;
+        }
         &-about {
             font-weight: 600;
             line-height: 41px;
@@ -46,22 +54,45 @@
     }
 
     &__main {
+        margin-bottom: 150px;
+        padding-left: 15px;
+        @include for-phone-only {
+            margin-bottom: 0;
+        }
         &-h1 {
-            margin-bottom: 10px;
+            margin-bottom: 30px;
+            @include for-phone-only {
+                margin-bottom: 4px;
+            }
         }
         &-title {
             font-size: 70px;
             line-height: 61px;
+            @include for-phone-only {
+                font-size: 35px;
+                line-height: 42px;
+                text-shadow: 0 0 3px #ffffff, 0 0 5px #ffffff, 0 0 6px #ff00de, 0 0 10px #ff00de;
+            }
         }
         &-slogan {
             font-size: 20px;
             color: #848484;
             margin-bottom: 80px;
+            @include for-phone-only {
+                display: none;
+                font-size: 14px;
+                margin-bottom: 20px;
+                line-height: 21px;
+                text-align: center;
+            }
         }
         &-about {
             position: relative;
             width: 35%;
             grid-template-columns: 38% 62%;
+            @include for-phone-only {
+                display: inline;
+            }
             &::after {
                 position: absolute;
                 content: "";
@@ -72,6 +103,14 @@
                 border-bottom: 1px solid $color-shadowy;
                 top: 120px;
                 left: -10px;
+                @include for-phone-only {
+                    width: 21px;
+                    height: 21px;
+                    border-left: 2px solid black;
+                    border-bottom: 2px solid black;
+                    top: 32px;
+                    left: 13px;
+                }
             }
         }
     }
@@ -81,14 +120,25 @@
         background-size: cover;
         width: 290px;
         height: 85px;
-        margin-top: 250px;
+        margin-top: 100px;
         margin-left: 145px;
+        @include for-phone-only {
+            margin-top: 0;
+            margin-left: 0;
+            width: 126px;
+            height: 37px;
+            background-size: contain;
+        }
         &-inside {
             color: $color-white;
             text-transform: uppercase;
             letter-spacing: 6px;
             background: transparent;
             font-weight: bolder;
+            @include for-phone-only {
+                letter-spacing: 2px;
+                font-weight: bold;
+            }
             &:hover {
                 color: aqua;
             }
@@ -98,6 +148,9 @@
         display: flex;
         align-items: flex-end;
         justify-content: space-between;
+        @include for-phone-only {
+            padding: 15px 0 10px 40px;
+        }
     }
 }
 $an: 0;
@@ -122,4 +175,13 @@ $topbar__social-wrap: 7;
         animation-delay: #{$an/3}s;
     }
     $an: $an + 1;
+}
+
+.text-title-less {
+    @include for-phone-only {
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 25px;
+        color: black;
+    }
 }

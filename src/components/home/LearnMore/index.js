@@ -1,35 +1,39 @@
 import './index.scss';
-import { useTranslation } from 'react-i18next';
 import LearnMoreBox from '../../common/LearnMoreBox';
 
 
 const items = [
     {
-        title: 'Mobile Game Development',
-        imageName: "button-blue"
+        title: 'LEARN_MORE',
+        classes: "learn-box__button-blue",
+        textbtn: "LEARN_MORE_WRITE",
     },
     {
-        title: 'PC Game Development',
-        imageName: "button-blue"
+        title: 'LEARN_MORE1',
+        classes: "learn-box__button-pink",
+        textbtn: "LEARN_MORE_WRITE1",
     },
     {
-        title: 'PS4 Game Development',
-        imageName: "button-darkblue"
+        title: 'LEARN_MORE_US',
+        classes: "learn-box__button-orang",
+        textbtn: "LEARN_MORE_WRITE2",
     },
+    {
+        title: 'LEARN_MORE_MASTER',
+        classes: "learn-box__button-darkblue",
+        textbtn: "LEARN_MORE_WRITE3",
+    },
+    {
+        title: 'LEARN_MORE_LOGO',
+        classes: "learn-box__button-green",
+        textbtn: "LEARN_MORE_WRITE4",
+    }
 ]
 
 export default function LearnMore() {
-    const { t } = useTranslation();
-    return (<div className="more flex">
-        <div>
-            {items.map(item => <LearnMoreBox title={item.title} key={item.title} imageName={item.imageName} />)}
+    return (<div className="more">
+        <div className="flex-between">
+            {items.map(item => <LearnMoreBox title={item.title} additionalClasses={item.classes} textbtn={item.textbtn} />)}
         </div>
-        <div>
-            <LearnMoreBox />
-        </div>
-        <div>
-            <LearnMoreBox />
-        </div>
-
     </div>)
 }

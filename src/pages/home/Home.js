@@ -19,8 +19,8 @@ export default function Home() {
         {/* <Program /> */}
         {/* <OurPartners /> */}
         {/* <Subscribe /> */}
-        <Safety />
         <LearnMore />
+        <Safety />
         <Map />
     </div>
     )

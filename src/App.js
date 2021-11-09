@@ -20,8 +20,8 @@ i18n
   .use(initReactI18next)
   .init({
     resources,
-    lng: "en",
-    fallbackLng: "ua",
+    lng: "ua",
+    fallbackLng: "en",
     interpolation: {
       escapeValue: false
     }

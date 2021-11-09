@@ -10,9 +10,9 @@ const localisation = {
     BANNER_DATE: "15 грудня / середа",
     ABOUT_TITLE: "Найбільший в Європі, Перший міжнародний форум нігтьової індустрії",
     ABOUT_ITEM1: "Презентація нових колекцій 2022 року від найкращих світових виробників",
-    ABOUT_ITEM2: "Перше у світі шоу Nail Fashion Day",
-    ABOUT_ITEM3: "Провідні спікери індустрії краси",
-    ABOUT_ITEM4: "Майстер класи від зірок нігтьової естетики",
+    // ABOUT_ITEM2: "Перше у світі шоу Nail Fashion Day",
+    ABOUT_ITEM3: "Виступи Топ-спікерів індустрії краси",
+    ABOUT_ITEM4: "Найновіші тренди та технології від майстрів нігтьової естетики",
     ABOUT_ITEM5: "Новорічний корпоратив «Nail New Year» під запалюючий супровід кавєр-бенд «Wunderkind»",
     ROAD_MAP: "Карта проїзду",
     LOCATION: "ТЦ «Gorodok Gallery»",
@@ -50,7 +50,16 @@ const localisation = {
     MEMBERS: 'участникам',
     BUYERS: 'байерам',
     LEARN_MORE: 'Залишилися питання? Напиши нам!',
-    LEARN_MORE1: '',
+    LEARN_MORE_WRITE: 'Написати',
+    LEARN_MORE1: 'Виробник? Візьми участь!',
+    LEARN_MORE_WRITE1: 'Подати заяву',
+    LEARN_MORE_US: 'Готовий круто написати про нас? Співпрацюй!',
+    LEARN_MORE_WRITE2: 'Співпрацювати',
+    LEARN_MORE_MASTER: 'Досвідчений майстер або новачок? Приєднуйся!',
+    LEARN_MORE_WRITE3: 'Приєднатися',
+    LEARN_MORE_LOGO: 'Хочеш, щоб усі бачили твоє лого? Спонсуй!',
+    LEARN_MORE_WRITE4: 'Спонсорувати',
+
   }
 };
 

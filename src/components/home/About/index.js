@@ -6,6 +6,9 @@ export default function About() {
     const { t } = useTranslation();
     return <main className="about" id="about">
         <div className="about__container">
+            <div className="about__title">
+                <p className="text-title uppercase-white">{t("PROGRAM_TITLE")}</p>
+            </div>
             <ul className="about__decs">
                 <li className="about__decs-item">
                     <div className="about__decs-check">
@@ -17,13 +20,13 @@ export default function About() {
                     <div className="about__decs-check">
                         <CheckMark />
                     </div>
-                    <p className="text-normal uppercase-white">{t("ABOUT_ITEM2")}</p>
+                    <p className="text-normal uppercase-white">{t("ABOUT_ITEM3")}</p>
                 </li>
                 <li className="about__decs-item">
                     <div className="about__decs-check">
                         <CheckMark />
                     </div>
-                    <p className="text-normal uppercase-white">{t("ABOUT_ITEM3")}</p>
+                    <p className="text-normal uppercase-white">Nail Fashion Show</p>
                 </li>
                 <li className="about__decs-item">
                     <div className="about__decs-check">
