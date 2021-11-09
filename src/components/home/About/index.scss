@@ -8,11 +8,10 @@
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 0 100px;
-    &__container {
-        padding: 100px 0;
-        display: grid;
-        grid-template-columns: 60% 40%;
+    padding: 60px 100px;
+    &__title {
+        padding-bottom: 40px;
+        text-align: center;
     }
     &__decs {
         &-item {
@@ -31,8 +30,8 @@
         height: 25px;
         border-left: 1px solid $color-white;
         border-bottom: 1px solid $color-white;
-        top: 466px;
-        left: 148px;
+        top: 492px;
+        left: 159px;
     }
     &::before {
         position: absolute;
@@ -42,7 +41,7 @@
         height: 25px;
         border-top: 1px solid #ffffff;
         border-right: 1px solid #ffffff;
-        top: 106px;
+        top: 153px;
         left: 915px;
     }
 }

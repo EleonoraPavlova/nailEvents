@@ -1,0 +1,21 @@
+@import "../../../variables.scss";
+@import "../../../mixins.scss";
+
+.button-learn {
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 190px;
+    height: 60px;
+    background-position: 50% 50%;
+    &__button-inside {
+        font-size: 10px;
+        color: $color-white;
+        text-transform: uppercase;
+        letter-spacing: 4px;
+        background: transparent;
+        font-weight: bolder;
+        &:hover {
+            color: aqua;
+        }
+    }
+}

@@ -55,7 +55,6 @@ export default function Program() {
       <h4 className="program__title uppercase">{t("PROGRAM_TITLE")}</h4>
     </div>
     {target.map(slot => <ProgramItem {...slot} />)}
-    {/* замінити Свернуть і вся програма на ключі */}
     <div className="flex-center">
       <button onClick={() => setIsShown(!isShown)} className="program__button text-normal fonts-white">{t(isShown ? 'BUTTON_CLICK' : 'BUTTON_ALL')}</button>
     </div>
