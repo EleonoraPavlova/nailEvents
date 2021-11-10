@@ -3,16 +3,19 @@
 
 .you-want {
     position: relative;
+    padding-bottom: 50px;
     &__left {
         display: grid;
         grid-template-columns: 40% 60%;
         gap: 100px;
     }
     &__image {
-        padding-bottom: 40px;
-        img {
-            border-radius: 20px;
-        }
+        background-image: url(./horn.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position-x: center;
+        margin-bottom: 40px;
+        border-radius: 6%;
     }
     &__title {
         letter-spacing: 3px;
@@ -20,7 +23,7 @@
         text-shadow: 0 0 3px #ffffff, 0 0 5px #ffffff, 0 0 6px #ff00de, 0 0 10px #ff00de, 0 0 20px #ff00de;
     }
     &__subtitle {
-        font-size: 25px;
+        font-size: 23px;
         font-weight: 600;
         text-align: center;
         line-height: 27px;
@@ -48,4 +51,12 @@
             margin-right: 30px;
         }
     }
+    &__agitation {
+        &-button {
+            padding: 20px;
+        }
+    }
+}
+.button-pink {
+    background-image: url(../../common/LearnMoreBox/button-pink.png);
 }

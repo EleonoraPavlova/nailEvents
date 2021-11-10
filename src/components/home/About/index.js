@@ -26,7 +26,7 @@ export default function About() {
                     <div className="about__decs-check">
                         <CheckMark />
                     </div>
-                    <p className="text-normal uppercase-white">Nail Fashion Show</p>
+                    <p className="text-normal uppercase-white">{t("ABOUT_ITEM2")}</p>
                 </li>
                 <li className="about__decs-item">
                     <div className="about__decs-check">

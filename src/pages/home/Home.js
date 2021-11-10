@@ -1,4 +1,5 @@
 import Header from "../../components/home/Header";
+import Organizer from "../../components/home/Organizer";
 import About from "../../components/home/About";  // про событие
 // import Speakers from "../../components/home/Speakers"; // спикеры
 import Statistics from "../../components/home/Statistics"; //статистика
@@ -14,6 +15,7 @@ import LearnMore from "../../components/home/LearnMore";
 export default function Home() {
     return (<div>
         <Header />
+        <Organizer />
         <About />
         {/* <Speakers /> */}
         <Statistics />

@@ -1,6 +1,7 @@
 import './index.scss';
 import { useTranslation } from 'react-i18next';
 import CheckMark from '../../common/CheckMark/CheckMark';
+import ButtonLearn from '../../common/ButtonLearn';
 
 
 export default function YouWant() {
@@ -8,7 +9,6 @@ export default function YouWant() {
     return <div className="you-want wrapper">
         <div className="you-want__left">
             <div className="you-want__image">
-                <img src={process.env.PUBLIC_URL + '/images/horn.jpg'} alt="horn" target="_blank" />
             </div>
             <div className="you-want__offer">
                 <div className="you-want__title">
@@ -51,8 +51,23 @@ export default function YouWant() {
                         </div>
                     </li>
                 </ul>
+                <div className="you-want__agitation flex">
+                    <div className="flex">
+                        <p className="text-big uppercase">{t("ORGANIZER_AGITATION")}</p>
+                        <div className="you-want__agitation-button">
+                            <ButtonLearn additionalClasses="button-pink" textbtn={t("BUY_TICKET")} />
+                        </div>
+                    </div>
+                    <div className="flex">
+                        <p className="text-big uppercase">{t("ORGANIZER_OR")}</p>
+                        <div className="you-want__agitation-button">
+                            <ButtonLearn additionalClasses="button-pink" textbtn={t("LEARN_MORE_WRITE1")} />
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-
     </div>
+
+
 }
