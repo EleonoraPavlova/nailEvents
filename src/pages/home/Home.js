@@ -10,6 +10,7 @@ import Safety from "../../components/home/Safety";     // меры безопа�
 import Map from "../../components/home/Map";
 // import Program from "../../components/home/Program";
 import LearnMore from "../../components/home/LearnMore";
+import LetsGo from "../../components/home/Bonus";
 
 
 export default function Home() {
@@ -25,6 +26,7 @@ export default function Home() {
         {/* <Subscribe /> */}
         <LearnMore />
         <Safety />
+        <LetsGo />
         <Map />
     </div>
     )

@@ -22,17 +22,17 @@
             margin-right: 25px;
         }
     }
-    &::after {
-        position: absolute;
-        content: "";
-        display: block;
-        width: 25px;
-        height: 25px;
-        border-left: 1px solid $color-white;
-        border-bottom: 1px solid $color-white;
-        top: 492px;
-        left: 159px;
-    }
+    // &::after {
+    //     position: absolute;
+    //     content: "";
+    //     display: block;
+    //     width: 25px;
+    //     height: 25px;
+    //     border-left: 1px solid $color-white;
+    //     border-bottom: 1px solid $color-white;
+    //     top: 492px;
+    //     left: 159px;
+    // }
     &::before {
         position: absolute;
         content: "";
