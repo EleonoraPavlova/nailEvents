@@ -1,10 +1,15 @@
 import { useTranslation } from 'react-i18next';
+import { useState } from 'react';
 import MenuLinks from './MenuLinks';
 import './index.scss';
 import Logo from '../Logo';
+import { ReactComponent as Menu } from './menu.svg';
+import { ReactComponent as Close } from './close.svg';
 
 export default function Navigation() {
   const { t, i18n } = useTranslation();
+  const [visible, setVisible] = useState(false);
+
   const currentLanguage = i18n.language;
   return (
     <div className="navigationbar__wrapper">
@@ -16,8 +21,13 @@ export default function Navigation() {
           <li className="navigationbar__logo">
             <Logo />
           </li>
-          <MenuLinks additionalClasses="text-middle navigationbar__box-item uppercase" />
+          <div className={`links-wrapper ${visible ? 'visible' : null}`}>
+            <MenuLinks additionalClasses="text-middle navigationbar__box-item uppercase" />
+          </div>
         </ul >
+        <button className="navigation-button" onClick={() => setVisible(!visible)}>
+          {visible ? <span className="navigation-button__close"><Close /></span> : <Menu />}
+        </button>
         <div className="navigationbar__nav-right">
           <div className="navigationbar__nav-date flex">
             <div className="navigationbar__nav-calendar">
