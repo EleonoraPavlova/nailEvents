@@ -1,4 +1,4 @@
-import "./CheckMark.scss";
+import "./index.scss";
 
 export default function CheckMark() {
     return (<div className="check-mark">
