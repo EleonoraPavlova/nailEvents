@@ -1,6 +1,6 @@
 import './index.scss';
 import { useTranslation } from 'react-i18next';
-import CheckMark from './CheckMark';
+import CheckMark from '../../common/CheckMark/CheckMark';
 
 export default function About() {
     const { t } = useTranslation();

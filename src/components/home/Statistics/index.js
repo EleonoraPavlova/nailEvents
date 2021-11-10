@@ -22,7 +22,7 @@ const statistics = [
     {
         description: 'STATISTICS_EXPERTS',
         iconName: 'experts',
-        number: 15
+        number: 10
     }
 ]
 

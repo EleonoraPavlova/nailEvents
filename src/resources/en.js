@@ -59,6 +59,12 @@ const localisation = {
     LEARN_MORE_WRITE3: 'Join',
     LEARN_MORE_LOGO: 'Do you want everyone to see your logo? Sponsor!',
     LEARN_MORE_WRITE4: 'To sponsor',
+    YOU_WANT: 'Most modern Fashion Day in beauty industry!',
+    YOU_WANT1: 'If you want:',
+    YOU_WANT2: 'be the first to know about the trends of the season 2022',
+    YOU_WANT3: 'test new items of world brands',
+    YOU_WANT4: 'hear about the trends of the nail industry of the future',
+    YOU_WANT5: 'get new ideas and cool connections',
   }
 };
 

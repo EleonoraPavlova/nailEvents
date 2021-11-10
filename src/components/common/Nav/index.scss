@@ -2,7 +2,6 @@
 @import "../../../mixins.scss";
 
 .navigationbar {
-
   &__wrapper {
     background-color: #fdfaf5;
     position: relative;
@@ -47,7 +46,6 @@
     &-right {
       padding-top: 40px;
       @include for-phone-only {
-        display: none;
         padding-top: 20px;
         padding-bottom: 20px;
       }
@@ -89,7 +87,6 @@
           border-bottom: 1px solid $color-shadowy;
         }
       }
-
     }
   }
   &__wrapper-buttonlng {
@@ -106,6 +103,12 @@
     padding: 8px 12px;
     color: $color-white;
     background-color: #cd00cd;
+  }
+  &__button-mobile {
+    display: none;
+    @include for-phone-only {
+      display: inline;
+    }
   }
 }
 .text-normal {

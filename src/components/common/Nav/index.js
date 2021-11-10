@@ -25,8 +25,8 @@ export default function Navigation() {
             <MenuLinks additionalClasses="text-middle navigationbar__box-item uppercase" />
           </div>
         </ul >
-        <button className="navigation-button" onClick={() => setVisible(!visible)}>
-          {visible ? <span className="navigation-button__close"><Close /></span> : <Menu />}
+        <button className="navigationbar__button-mobile" onClick={() => setVisible(!visible)}>
+          {visible ? <span className="navigation__button-close"><Close /></span> : <Menu />}
         </button>
         <div className="navigationbar__nav-right">
           <div className="navigationbar__nav-date flex">
