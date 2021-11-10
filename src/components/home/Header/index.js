@@ -11,7 +11,7 @@ export default function Header() {
         <div className="topbar__bg">
             <div className="topbar__main">
                 <div className="topbar__main-h1">
-                    <h1 className="text-title-big topbar__main-title">Nano Tech Beauty</h1>
+                    <h1 className="text-title-big topbar__main-title">Nano Tech Nail</h1>
                 </div>
                 <div className="topbar__main-slogan">
                     <Slogan />
@@ -22,7 +22,7 @@ export default function Header() {
             </div>
             <div className="topbar__footer">
                 <div className="topbar__button flex-center">
-                    <button type="button" className="topbar__button-inside text-small">{t("REGISTRATION")}</button>
+                    <button type="button" className="topbar__button-inside text-small">{t("BUY_TICKET")}</button>
                 </div>
                 <div className="topbar__social">
                     <div className="topbar__social-link flex-end">

@@ -1,0 +1,48 @@
+@import "../../../variables.scss";
+@import "../../../mixins.scss";
+
+.bonus {
+    position: relative;
+    background-image: url(./lets-banner.jpg);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    &__text {
+        padding: 60px 80px 0 0;
+        text-align: end;
+    }
+    &__subtitle {
+        margin-left: 37%;
+        padding-bottom: 25px;
+    }
+    &__item {
+        padding-bottom: 20px;
+        &_date {
+            text-align: center;
+            text-shadow: 0 0 2px greenyellow, 0 0 2px greenyellow, 0 0 6px #ff00de, 0 0 4px #ff00de, 0 0 6px #ff00de;
+        }
+        &-box {
+            justify-content: flex-end;
+        }
+        &-1 {
+            margin-right: 75px;
+        }
+        &-2 {
+            margin-right: 145px;
+        }
+        &-3 {
+            margin-right: 265px;
+        }
+        &-buy {
+            margin-right: 30px;
+        }
+    }
+    &__questions {
+        padding-top: 25px;
+    }
+    .bonus-shadow {
+        border-radius: 10px;
+        box-shadow: 1px 1px 1px #ff00de, 2px 2px 2px #ff00de, 4px 4px 4px #ff00de, 8px 8px 8px #ff00de,
+            12px 12px 12px #ff00de;
+    }
+}
