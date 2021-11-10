@@ -5,7 +5,7 @@ import CheckMark from '../../common/CheckMark/CheckMark';
 
 export default function YouWant() {
     const { t } = useTranslation();
-    return <div className="you-want">
+    return <div className="you-want wrapper">
         <div className="you-want__left">
             <div className="you-want__image">
                 <img src={process.env.PUBLIC_URL + '/images/horn.jpg'} alt="horn" target="_blank" />
@@ -21,33 +21,33 @@ export default function YouWant() {
                     <li className="you-want__box-item">
                         <div className="you-want__box-check">
                             <div className="you-want__box-compon">
-                                <CheckMark />
+                                <CheckMark additionalClassName="black" />
                             </div>
-                            <p className="text-normal uppercase">{t("YOU_WANT2")}</p>
+                            <p className="text-big uppercase">{t("YOU_WANT2")}</p>
                         </div>
                     </li>
                     <li className="you-want__box-item">
                         <div className="you-want__box-check">
                             <div className="you-want__box-compon">
-                                <CheckMark />
+                                <CheckMark additionalClassName="black" />
                             </div>
-                            <p className="text-normal uppercase">{t("YOU_WANT3")}</p>
+                            <p className="text-big uppercase">{t("YOU_WANT3")}</p>
                         </div>
                     </li>
                     <li className="you-want__box-item">
                         <div className="you-want__box-check">
                             <div className="you-want__box-compon">
-                                <CheckMark />
+                                <CheckMark additionalClassName="black" />
                             </div>
-                            <p className="text-normal uppercase">{t("YOU_WANT4")}</p>
+                            <p className="text-big uppercase">{t("YOU_WANT4")}</p>
                         </div>
                     </li>
                     <li className="you-want__box-item">
                         <div className="you-want__box-check">
                             <div className="you-want__box-compon">
-                                <CheckMark />
+                                <CheckMark additionalClassName="black" />
                             </div>
-                            <p className="text-normal uppercase">{t("YOU_WANT5")}</p>
+                            <p className="text-big uppercase">{t("YOU_WANT5")}</p>
                         </div>
                     </li>
                 </ul>
