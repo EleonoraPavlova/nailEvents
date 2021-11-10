@@ -69,7 +69,7 @@ const localisation = {
     ORGANIZER_DECS: 'A series of forums on the latest technologies and promising developments in the beauty industry',
     ORGANIZER_AGITATION: 'Anything you need - ',
     ORGANIZER_OR: 'or',
-    BONUS: 'A nice bonus for guests and participants - New Year\'s corporate party for inflammatory hits from Cover band "Wunderkind"\'',
+    BONUS: 'A nice bonus for guests and participants - New Year\'s corporate party for inflammatory hits from Cover band "WunderkindЫ"\' and DJ Andrew Sosed',
     BONUS_GIFT: 'Gifts from sponsors and partners',
     BONUS_GIFT1: 'Unlimited space for professional growth and networking!',
     BONUS_TEXT: 'Light together',
