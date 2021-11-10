@@ -153,3 +153,12 @@ color: #505050;
   color: white;
   text-transform: uppercase;
 }
+
+.text-big {
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 22px;
+  font-style: normal;
+  line-height: 34px;
+  letter-spacing: 1px;
+}

@@ -13,6 +13,10 @@
         stroke: $color-white;
         stroke-miterlimit: 10;
         animation: fill 0.5s ease-in-out 0.5s forwards, scale 0.4s ease-in-out 0.9s both;
+        &.black {
+            stroke: $color-shadowy;
+            stroke-width: 3;
+        }
     }
     &__circle {
         stroke-dasharray: 166;
