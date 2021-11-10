@@ -1,16 +1,16 @@
 const localisation = {
   translation: {
     NAV_MENU_PLAN: "About the event",
-    NAV_MENU_REGISTER: "Registration/tickets",
-    NAV_MENU_PARTICIPANTS: "Participants",
+    NAV_MENU_REGISTER: "Tickets",
+    NAV_MENU_PARTICIPANTS: "Manufacturer",
     NAV_MENU_SPEAKERS: "Speakers",
     NAV_MENU_DISCO: "New Year's disco",
-    BANNER_SUBTITLE: "Maximum opportunities - many innovations - dozens of fun",
+    BANNER_SUBTITLE: "Maximum opportunities - maximum pleasure!",
     REGISTRATION: "Registration",
     BANNER_DATE: "15th of December / Wednesday",
     ABOUT_TITLE: "The largest in Europe, the first international forum of nail industry",
     ABOUT_ITEM1: "Presentation of new collections in 2022 from the world's best manufacturers",
-    // ABOUT_ITEM2: "The world's first show Nail Fashion Day",
+    ABOUT_ITEM2: "The world's first show Nail Fashion Day",
     ABOUT_ITEM3: "Speeches by top speakers of the beauty industry",
     ABOUT_ITEM4: "The latest trends and technologies from masters of nail aesthetics",
     ABOUT_ITEM5: "New Year's corporate party \" Nail New Year\" accompanied by an incendiary cover band  \" Wunderkind\"",
@@ -60,11 +60,15 @@ const localisation = {
     LEARN_MORE_LOGO: 'Do you want everyone to see your logo? Sponsor!',
     LEARN_MORE_WRITE4: 'To sponsor',
     YOU_WANT: 'Most modern Fashion Day in beauty industry!',
-    YOU_WANT1: 'If you want:',
+    YOU_WANT1: 'For you if you want:',
     YOU_WANT2: 'be the first to know about the trends of the season 2022',
     YOU_WANT3: 'test new items of world brands',
     YOU_WANT4: 'hear about the trends of the nail industry of the future',
     YOU_WANT5: 'get new ideas and cool connections',
+    ORGANIZER: 'Organizer:',
+    ORGANIZER_DECS: 'A series of forums on the latest technologies and promising developments in the beauty industry',
+    ORGANIZER_AGITATION: 'Anything you need - ',
+    ORGANIZER_OR: 'or',
   }
 };
 
