@@ -9,9 +9,16 @@
     background-repeat: no-repeat;
     background-size: cover;
     padding: 60px 100px;
+    @include for-phone-only {
+        padding: 20px 30px;
+        background-image: url(./about-banner-mobile.jpg);
+    }
     &__title {
         padding-bottom: 40px;
         text-align: center;
+        @include for-phone-only {
+            padding-bottom: 20px;
+        }
     }
     &__decs {
         &-item {
@@ -43,5 +50,11 @@
         border-right: 1px solid #ffffff;
         top: 153px;
         left: 915px;
+    }
+}
+.text-title {
+    @include for-phone-only {
+        font-size: 20px;
+        line-height: 32px;
     }
 }

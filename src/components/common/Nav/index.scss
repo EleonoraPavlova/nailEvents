@@ -76,6 +76,7 @@
     @include for-phone-only {
       width: 45px;
       height: 45px;
+      margin-right: -20px;
     }
   }
   &__box {
@@ -117,6 +118,8 @@
     @include for-phone-only {
       display: inline;
       background-color: transparent;
+      height: 30px;
+      margin-top: 23px;
     }
   }
 }

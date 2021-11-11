@@ -61,7 +61,9 @@ export default function YouWant() {
                     <div className="flex">
                         <p className="text-big uppercase">{t("ORGANIZER_OR")}</p>
                         <div className="you-want__agitation-button">
-                            <ButtonLearn additionalClasses="button-pink" textbtn={t("LEARN_MORE_WRITE1")} />
+                            <a href="https://docs.google.com/forms/d/1j7z0twQhWixVOJJWPNoL81tv3L0PhJFMU5k2RtRhdLc/viewform?edit_requested=true" rel="noreferrer" target="_blank">
+                                <ButtonLearn additionalClasses="button-pink" textbtn={t("LEARN_MORE_WRITE1")} />
+                            </a>
                         </div>
                     </div>
                 </div>
