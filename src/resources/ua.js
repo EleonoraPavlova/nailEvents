@@ -80,6 +80,19 @@ const localisation = {
     BONUS_TEXT4: 'Ярмарок новинок, ділові контакти, перспективні зв’язки та відмінний настрій!',
     BONUS_TEXT5: '15 лютого 2021! Київ,',
     BONUS_TEXT6: 'Твій квиток у світ Nano Tech Nail чекає на тебе ТУТ:',
+    PARTICIPATION_TITLE: 'Винятковий пакет виробникам',
+    PARTICIPATION_ITEM_TITLE1: 'Презентація колекції 2022',
+    PARTICIPATION_ITEM_TITLE2: 'Участь у Nail Fashion Day',
+    PARTICIPATION_ITEM_TITLE3: 'Рекламний пакет',
+    PARTICIPATION_ITEM_TITLE4: 'Виставочна зона',
+    PARTICIPATION_ITEM_TITLE5: 'Бізнес нетворкінг',
+    PARTICIPATION_ITEM_TITLE6: 'Розширення ринків збуту',
+    PARTICIPATION_ITEM_DESCRIPTION1: 'Пряма комунікація з потенціальними вітчизняними та іноземними користувачами вашої продукції – на форумi планується присутність більш ніж 1500 майстрів манікюру, власників салонів краси, студій та шкіл',
+    PARTICIPATION_ITEM_DESCRIPTION2: 'Перше в світі грандіозне «Nail Fashion Show», на якому вашу модель побачить вся Україна.',
+    PARTICIPATION_ITEM_DESCRIPTION3: 'Повний спектр просування в інтернет-ресурсах організаторів.',
+    PARTICIPATION_ITEM_DESCRIPTION4: 'Особистий стенд у виставковій зоні, серед усіх відвідувачів',
+    PARTICIPATION_ITEM_DESCRIPTION5: 'В «Nano Tech Nail» беруть участь торгівельні місії декількох країн Європи та Азії',
+    PARTICIPATION_ITEM_DESCRIPTION6: 'У форумі беруть участь близько сотні байєрів та ритейлерів які побачать ваші новинки',
   }
 };
 

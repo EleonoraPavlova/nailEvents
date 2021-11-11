@@ -11,6 +11,7 @@ import Map from "../../components/home/Map";
 // import Program from "../../components/home/Program";
 import LearnMore from "../../components/home/LearnMore";
 import LetsGo from "../../components/home/Bonus";
+import ParticipationPackage from "../../components/home/ParticipationPackage";
 
 
 export default function Home() {
@@ -25,6 +26,7 @@ export default function Home() {
         {/* <OurPartners /> */}
         {/* <Subscribe /> */}
         <LearnMore />
+        <ParticipationPackage />
         <Safety />
         <LetsGo />
         <Map />

@@ -79,6 +79,19 @@ const localisation = {
     BONUS_TEXT4: 'Fair of novelties, business contacts, perspective connections and great mood!',
     BONUS_TEXT5: 'February 15, 2021! Kyiv,',
     BONUS_TEXT6: 'Your ticket to the world of Nano Tech Nail is waiting for you HERE:',
+    PARTICIPATION_TITLE: 'Exceptional package to manufacturers',
+    PARTICIPATION_ITEM_TITLE1: 'Presentation of the 2022 collection',
+    PARTICIPATION_ITEM_TITLE2: 'Participation in Nail Fashion Day',
+    PARTICIPATION_ITEM_TITLE3: 'Advertising package',
+    PARTICIPATION_ITEM_TITLE4: 'Exhibition area',
+    PARTICIPATION_ITEM_TITLE5: 'Business networking',
+    PARTICIPATION_ITEM_TITLE6: 'Expansion of markets',
+    PARTICIPATION_ITEM_DESCRIPTION1: 'Direct communication with potential domestic and foreign users of your products - the forum is planned to be attended by more than 1,500 manicurists, owners of beauty salons, studios and schools',
+    PARTICIPATION_ITEM_DESCRIPTION2: 'The world\'s first grand "Nail Fashion Show", where the whole of Ukraine will see your model.',
+    PARTICIPATION_ITEM_DESCRIPTION3: 'The full range of promotion in the Internet resources of the organizers.',
+    PARTICIPATION_ITEM_DESCRIPTION4: 'Personal stand in the exhibition area, among all visitors',
+    PARTICIPATION_ITEM_DESCRIPTION5: 'The trade missions of several countries in Europe and Asia take part in Nano Tech Nail',
+    PARTICIPATION_ITEM_DESCRIPTION6: 'The forum is attended by about a hundred buyers and retailers who will see your new products',
   }
 };
 
