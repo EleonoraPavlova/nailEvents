@@ -3,11 +3,19 @@
 
 .organizer {
     margin-right: 100px;
+    @include for-phone-only {
+        margin-right: 10px;
+        margin-bottom: 25px;
+    }
     &__box {
         padding: 50px 0 0 50px;
         display: grid;
         grid-template-columns: 40% 60%;
         gap: 50px;
+        @include for-phone-only {
+            padding: 10px 0 0 20px;
+            display: inline;
+        }
     }
     &__item-wrapper {
         background-size: cover;
@@ -17,10 +25,23 @@
     }
     &__title {
         padding-bottom: 30px;
+        @include for-phone-only {
+            padding-bottom: 12px;
+        }
     }
     &__subtitle {
         padding-bottom: 60px;
         text-shadow: 0 0 3px #ffffff, 0 0 5px #ffffff, 0 0 8px #ffffff, 0 0 10px #ff00de, 0 0 15px #ff00de,
             0 0 20px #ff00de, 0 0 30px #ff00de;
+        @include for-phone-only {
+            padding-bottom: 20px;
+        }
+    }
+}
+
+.text-title-big {
+    @include for-phone-only {
+        font-size: 40px;
+        line-height: 51px;
     }
 }

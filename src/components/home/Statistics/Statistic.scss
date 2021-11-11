@@ -1,7 +1,13 @@
+@import "../../../variables.scss";
+@import "../../../mixins.scss";
+
 .statistic {
   &__wrapper {
     flex-direction: column;
     margin-right: 45px;
+    @include for-phone-only {
+      margin-right: 5px;
+    }
   }
   &__inner-icon {
     margin: 14px;
@@ -10,14 +16,27 @@
   &__icon {
     width: 80px;
     height: 80px;
+    @include for-phone-only {
+      width: 60px;
+      height: 60px;
+    }
   }
   &__num {
     font-size: 30px;
     line-height: 15px;
     font-weight: 900;
     padding-bottom: 30px;
+    @include for-phone-only {
+      font-size: 20px;
+      line-height: 15px;
+      font-weight: 700;
+      padding-bottom: 15px;
+    }
   }
   &__desc {
     text-align: center;
+    @include for-phone-only {
+      padding-bottom: 30px;
+    }
   }
 }

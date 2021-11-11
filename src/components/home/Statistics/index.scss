@@ -1,8 +1,28 @@
+@import "../../../variables.scss";
+@import "../../../mixins.scss";
+
 .statistics {
   padding: 65px 100px 110px 100px;
+  @include for-phone-only {
+    padding: 30px;
+  }
   &__wrapper {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-gap: 40px;
+    @include for-phone-only {
+      grid-gap: 10px;
+    }
+  }
+}
+.wrapper {
+  @include for-phone-only {
+    margin: 0 20px;
+  }
+}
+
+.mobile-size {
+  @include for-phone-only {
+    display: block;
   }
 }
