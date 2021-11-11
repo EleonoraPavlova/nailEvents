@@ -10,8 +10,10 @@
     background-size: cover;
     padding: 60px 100px;
     @include for-phone-only {
-        padding: 20px 30px;
+        padding: 20px;
         background-image: url(./about-banner-mobile.jpg);
+        height: 100%;
+        background-position-x: right;
     }
     &__title {
         padding-bottom: 40px;
@@ -24,9 +26,17 @@
         &-item {
             display: flex;
             padding: 20px;
+            @include for-phone-only {
+                padding: 10px;
+                align-items: center;
+                text-shadow: 6px 3px 14px #290624;
+            }
         }
         &-check {
             margin-right: 25px;
+            @include for-phone-only {
+                margin-right: 0;
+            }
         }
     }
     // &::after {
@@ -50,6 +60,10 @@
         border-right: 1px solid #ffffff;
         top: 153px;
         left: 915px;
+        @include for-phone-only {
+            top: 74px;
+            right: 30px;
+        }
     }
 }
 .text-title {

@@ -15,10 +15,10 @@ export default function Organizer(props) {
                     <p className="text-title-less">{t("ORGANIZER")}</p>
                 </div>
                 <div className="organizer__subtitle">
-                    <p className="text-title-less uppercase">Nano Tech Beauty</p>
+                    <p className="text-title-big uppercase-white">Nano Tech Beauty</p>
                 </div>
                 <div>
-                    <p className="text-title">{t("ORGANIZER_DECS")}</p>
+                    <p className="text-title">{t("ORGANIZER_DECS")} {t("ORGANIZER_DECS1")}</p>
                 </div>
             </div>
         </div>
