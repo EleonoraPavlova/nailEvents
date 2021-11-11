@@ -52,13 +52,13 @@ export default function YouWant() {
                     </li>
                 </ul>
                 <div className="you-want__agitation flex">
-                    <div className="flex">
+                    <div className="you-want__agitation-box flex">
                         <p className="text-big uppercase">{t("ORGANIZER_AGITATION")}</p>
                         <div className="you-want__agitation-button">
                             <ButtonLearn additionalClasses="button-pink" textbtn={t("BUY_TICKET")} />
                         </div>
                     </div>
-                    <div className="flex">
+                    <div className="you-want__agitation-box flex">
                         <p className="text-big uppercase">{t("ORGANIZER_OR")}</p>
                         <div className="you-want__agitation-button">
                             <a href="https://docs.google.com/forms/d/1j7z0twQhWixVOJJWPNoL81tv3L0PhJFMU5k2RtRhdLc/viewform?edit_requested=true" rel="noreferrer" target="_blank">

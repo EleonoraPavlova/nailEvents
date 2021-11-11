@@ -1,9 +1,14 @@
+@import "../../../mixins.scss";
+
 .participation {
   &__wrapper {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 60px 100px;
+    @include for-phone-only {
+      padding: 40px 20px;
+    }
   }
   &__title {
     width: 300px;
@@ -67,6 +72,10 @@
     grid-template-columns: repeat(6, 1fr);
     text-align: center;
     padding-bottom: 50px;
+    @include for-phone-only {
+      display: flex;
+      flex-direction: column;
+    }
   }
   &__button {
     width: 280px;

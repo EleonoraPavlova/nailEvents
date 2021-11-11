@@ -5,18 +5,32 @@
   &__wrapper {
     padding: 0 100px 50px 100px;
     background-color: $color-gray;
+    @include for-phone-only {
+      padding: 30px 20px;
+    }
   }
   &__title {
     padding: 35px 0;
     text-align: center;
+    @include for-phone-only {
+      padding: 15px 0;
+    }
   }
   &__measures {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 50px;
+    @include for-phone-only {
+      display: flex;
+      flex-direction: column;
+    }
     .measure-icon {
       width: 40px;
       height: 40px;
+      @include for-phone-only {
+        width: 60px;
+        height: 60px;
+      }
     }
   }
 }

@@ -17,7 +17,7 @@ export default function Organizer(props) {
                 <div className="organizer__subtitle">
                     <p className="text-title-big uppercase-white">Nano Tech Beauty</p>
                 </div>
-                <div>
+                <div className="organizer__box-desc">
                     <p className="text-title">{t("ORGANIZER_DECS")} {t("ORGANIZER_DECS1")}</p>
                 </div>
             </div>
