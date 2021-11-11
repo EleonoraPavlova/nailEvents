@@ -9,7 +9,7 @@
   &__upper-block {
     display: grid;
     grid-template-columns: 35% 20% 18% 12% 15%;
-    padding: 50px 80px 29px 80px;
+    padding: 30px;
     border-bottom: 1px solid $color-white;
     @include for-phone-only {
       display: none;
