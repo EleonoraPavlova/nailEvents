@@ -1,6 +1,7 @@
 import './index.scss';
 import ParticipationPackageItem from './ParticipationPackageItem';
 import { useTranslation } from 'react-i18next';
+import ButtonLearn from '../../common/ButtonLearn';
 
 const items = [
   {
@@ -31,7 +32,7 @@ const items = [
 
 export default function ParticipationPackage() {
   const { t } = useTranslation();
-  return <div className="participation__wrapper">
+  return <div className="participation__wrapper" id="manufacturer">
     <h2 className="participation__title">
       {t('PARTICIPATION_TITLE')}
     </h2>
@@ -45,6 +46,9 @@ export default function ParticipationPackage() {
     </div>
     <div className="participation__items">
       {items.map((item, index) => <ParticipationPackageItem key={index} index={index + 1} {...item} />)}
+    </div>
+    <div>
+      <ButtonLearn additionalClasses="button-pink participation__button" textbtn={t("CALC")} />
     </div>
   </div>
 }

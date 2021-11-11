@@ -6,7 +6,7 @@ import ButtonLearn from '../../common/ButtonLearn';
 
 export default function YouWant() {
     const { t } = useTranslation();
-    return <div className="you-want wrapper">
+    return <div className="you-want wrapper" id="ticket">
         <div className="you-want__left">
             <div className="you-want__image">
             </div>
