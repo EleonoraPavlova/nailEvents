@@ -63,6 +63,7 @@
         @include for-phone-only {
             top: 74px;
             right: 30px;
+            left: unset;
         }
     }
 }
