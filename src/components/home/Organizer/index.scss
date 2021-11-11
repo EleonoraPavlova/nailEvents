@@ -2,35 +2,25 @@
 @import "../../../mixins.scss";
 
 .organizer {
-    padding: 30px 0 30px 30px;
     margin-right: 100px;
     &__box {
+        padding: 50px 0 0 50px;
         display: grid;
-        grid-template-columns: 60% 40%;
-    }
-    &__items {
-        margin-right: 100px;
+        grid-template-columns: 40% 60%;
+        gap: 50px;
     }
     &__item-wrapper {
         background-size: cover;
-        box-shadow: 0 0 8px 8px #ff00de, 0 3px 16px 18px greenyellow;
-        border-radius: 20px;
-        img {
-            border-radius: 20px;
-        }
     }
     &__text {
         text-align: center;
     }
     &__title {
-        padding-bottom: 10px;
+        padding-bottom: 30px;
     }
     &__subtitle {
-        padding-bottom: 30px;
-        text-shadow: 0 0 3px #ffffff, 0 0 5px #ffffff, 0 0 6px #ff00de, 0 0 10px #ff00de, 0 0 20px #ff00de;
+        padding-bottom: 60px;
+        text-shadow: 0 0 3px #ffffff, 0 0 5px #ffffff, 0 0 8px #ffffff, 0 0 10px #ff00de, 0 0 15px #ff00de,
+            0 0 20px #ff00de, 0 0 30px #ff00de;
     }
-}
-
-.index {
-    z-index: 1;
 }

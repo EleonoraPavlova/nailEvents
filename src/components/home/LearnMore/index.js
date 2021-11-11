@@ -11,7 +11,7 @@ const items = [
     {
         title: 'LEARN_MORE1',
         classes: "learn-box__button-pink",
-        textbtn: "LEARN_MORE_WRITE1",
+        // textbtn: "LEARN_MORE_WRITE1",   <a href="https://docs.google.com/forms/d/1j7z0twQhWixVOJJWPNoL81tv3L0PhJFMU5k2RtRhdLc/viewform?edit_requested=true" rel="noreferrer" target="_blank">
     },
     // {
     //     title: 'LEARN_MORE_US',
