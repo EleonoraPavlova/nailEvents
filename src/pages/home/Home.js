@@ -27,8 +27,8 @@ export default function Home() {
         {/* <Subscribe /> */}
         <LearnMore />
         <ParticipationPackage />
-        <Safety />
         <LetsGo />
+        <Safety />
         <Map />
     </div>
     )

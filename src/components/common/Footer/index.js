@@ -12,30 +12,39 @@ export default function Footer() {
     <div className='footer'>
       <div className="footer__upper-block">
         <div className="footer__col-logo">
-          <div className="footer__logo-wrapper">
-            <Logo />
+          <div className="flex">
+            <div className="footer__logo-wrapper">
+              <Logo />
+            </div>
+            <div className="footer__desc">
+              <Slogan />
+            </div>
           </div>
-          <div className="footer__desc">
-            <Slogan />
-          </div>
-          <div>
+          <div className="footer__desc-site">
             <p className="footer__site"> @ntbeauty.com.ua</p>
+          </div>
+          <div className="footer__col-localmobile">
+            <p>Pochayna Event Hall</p>
+            <p>{t("LOCATION")}</p>
           </div>
         </div>
         <div className="footer__col-link padding">
           <MenuLinks additionalClasses="footer__col-item" />
         </div>
         <div className="footer__col-local padding">
-          <p>Pochayna Event Hall</p>
-          <p>{t("LOCATION")}</p>
           <div className="footer__col-number">
+            <p className="">{t("FOR_VISITORS")}, {t("MASTERS")}, {t("BUYERS")}:</p>
             <Number />
+          </div>
+          <div className="footer__col-number">
+            <p className="">{t("NAV_MENU_PARTICIPANTS")}:</p>
+            <a href="tel:+380963191102" className="text-middle fonts-white">+38 096 319 1102</a>
           </div>
           <div className="footer__col-socials">
             <Socials />
           </div>
         </div>
-        <div className="footer__col-advertising padding">
+        <div className="footer__col-advertising">
           <div className="footer__col-advertising-text">
             <p>{t("FOOTER_COL_ADVERTISING")} by Pavlova Eleonora</p>
           </div>
