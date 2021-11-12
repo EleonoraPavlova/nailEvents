@@ -11,9 +11,9 @@
     grid-template-columns: 30% 22% 22% 22%;
     padding: 30px 30px 15px 35px;
     border-bottom: 1px solid #ff00de;
-    @include for-phone-only {
-      display: none;
-    }
+    // @include for-phone-only {
+    //   display: ;
+    // }
   }
   &__logo-wrapper {
     width: 30px;
@@ -23,14 +23,23 @@
   &__desc {
     font-size: 12px;
     padding-bottom: 25px;
+    @include for-phone-only {
+      display: none;
+    }
   }
   &__site {
     font-size: 10px;
+    @include for-phone-only {
+      display: none;
+    }
   }
   &__col {
     &-link {
       a {
         color: $color-white;
+      }
+      @include for-phone-only {
+        display: none;
       }
     }
     &-item {
