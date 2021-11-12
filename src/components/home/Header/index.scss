@@ -115,12 +115,7 @@
                 top: 120px;
                 left: -10px;
                 @include for-phone-only {
-                    width: 21px;
-                    height: 21px;
-                    border-left: 2px solid black;
-                    border-bottom: 2px solid black;
-                    top: 47px;
-                    left: 13px;
+                    display: none;
                 }
             }
         }
