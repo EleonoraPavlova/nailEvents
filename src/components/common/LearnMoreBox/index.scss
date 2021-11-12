@@ -27,6 +27,7 @@
         line-height: 35px;
         @include for-phone-only {
             padding-bottom: 14px;
+            line-height: 28px;
         }
     }
     &__button-blue {

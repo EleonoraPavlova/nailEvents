@@ -14,7 +14,7 @@ const socials = [
 ]
 
 export default function Socials() {
-    return (<div className=" flex">
+    return (<div className="flex">
         {socials.map(social => <SocialLink key={social.link} {...social} />)}
     </div>)
 }
