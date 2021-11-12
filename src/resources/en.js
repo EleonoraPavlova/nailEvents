@@ -35,7 +35,7 @@ const localisation = {
     PROTECTION_MEANS: 'Means of protection',
     PROTECTION_MEANS_SUBTITLE: 'Admission to the conference is only in a mask. Antiseptics around the perimeter.',
     TEMPERATURE_SCREENING: 'Temperature screening on entrance',
-    TEMPERATURE_SCREENING_SUBTITLE: 'Measurement of body temperature for each visitor.',
+    TEMPERATURE_SCREENING_SUBTITLE: 'Measurement of body temperature for each visitor',
     FOOD_TITLE: 'Safe food',
     FOOD_SUBTITLE: 'During the coffee break, each person is given individual dishes.',
     PASSPORT_TITLE: 'PCR test or a vaccination certificate',
