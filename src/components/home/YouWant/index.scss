@@ -113,7 +113,7 @@
 .text-big {
     @include for-phone-only {
         font-size: 18px;
-        line-height: 20px;
+        line-height: 23px;
     }
 }
 .no-flex {

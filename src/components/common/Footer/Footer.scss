@@ -64,11 +64,11 @@
       }
     }
     &-local {
+      align-items: flex-start;
+      display: flex;
+      flex-direction: column;
       @include for-phone-only {
-        text-align: center;
         align-items: center;
-        display: flex;
-        flex-direction: column;
       }
     }
     &-item {
@@ -77,14 +77,13 @@
         color: aqua;
       }
     }
-    &-socials {
-      padding-left: 30px;
-    }
+    // &-socials {
+    //   @include for-phone-only {
+    //     padding-left: 30px;
+    //   }
+    // }
     &-number {
       padding-bottom: 10px;
-      @include for-phone-only {
-        padding-left: 30px;
-      }
       a {
         &:hover {
           text-shadow: 0 0 3px #ffffff, 0 0 5px #ffffff, 0 0 6px #ff00de, 0 0 10px #ff00de;
@@ -139,7 +138,8 @@
     align-items: flex-start;
     justify-content: flex-end;
     @include for-phone-only {
-      display: block;
+      flex-direction: column;
+      align-items: center;
     }
   }
   &__col-advertising-inner {
@@ -148,6 +148,11 @@
     align-items: flex-end;
     @include for-phone-only {
       display: block;
+    }
+  }
+  &__col-advertising-contact {
+    @include for-phone-only {
+      text-align: center;
     }
   }
   &__col-advertising-box {
@@ -167,10 +172,8 @@
     }
   }
 }
-.icon-size-little {
-  width: 20px;
-  height: 20px;
-  &:hover {
-    stroke: aqua;
+.box {
+  @include for-phone-only {
+    margin-left: 23%;
   }
 }

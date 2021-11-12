@@ -25,23 +25,26 @@ export default function Footer() {
           </div>
           <div className="footer__col-localmobile">
             <p>Pochayna Event Hall</p>
+            <p>{t("LOCATION1")}</p>
             <p>{t("LOCATION")}</p>
           </div>
         </div>
         <div className="footer__col-link">
           <MenuLinks additionalClasses="footer__col-item" />
-        </div>
+        </div >
         <div className="footer__col-local">
-          <div className="footer__col-number">
-            <p className="">{t("FOR_VISITORS")}, {t("MASTERS")}, {t("BUYERS")}:</p>
-            <Number />
-          </div>
-          <div className="footer__col-number">
-            <p className="">{t("NAV_MENU_PARTICIPANTS")}:</p>
-            <a href="tel:+380963191102" className="text-middle fonts-white">+38 096 319 1102</a>
-          </div>
-          <div className="footer__col-socials">
-            <Socials />
+          <div className="box">
+            <div className="footer__col-number">
+              <p className="">{t("FOR_VISITORS")}, {t("MASTERS")}, {t("BUYERS")}:</p>
+              <Number />
+            </div>
+            <div className="footer__col-number">
+              <p className="">{t("NAV_MENU_PARTICIPANTS")}:</p>
+              <a href="tel:+380963191102" className="text-middle fonts-white">+38 096 319 1102</a>
+            </div>
+            <div className="footer__col-socials">
+              <Socials />
+            </div>
           </div>
         </div>
         <div className="footer__col-advertising">
@@ -53,7 +56,7 @@ export default function Footer() {
               <div className="footer__col-advertising-icon">
                 <img src={process.env.PUBLIC_URL + '/images/my-foto.png'} alt="foto" />
               </div>
-              <div className="footer__col-advertising-contact flex">
+              <div className="footer__col-advertising-contact flex no-flex">
                 <a href="tel:+380687527904" className="fonts-white">+380 68 752 79 04
                   <p className="fonts-white">Viber, Telegram</p>
                 </a>
