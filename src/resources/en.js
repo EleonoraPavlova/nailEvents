@@ -7,7 +7,7 @@ const localisation = {
     NAV_MENU_DISCO: "New Year's disco",
     BANNER_SUBTITLE: "Maximum opportunities - maximum pleasure!",
     // REGISTRATION: "Registration",
-    BANNER_DATE: "15th of December / Wednesday",
+    BANNER_DATE: "15th of December / Wed",
     ABOUT_TITLE: "For the first time in Europe! The largest international forum of nail aesthetics",
     ABOUT_ITEM1: "Presentation of new collections in 2022 from the world's best manufacturers",
     ABOUT_ITEM2: "The world's first show Nail Fashion Day",

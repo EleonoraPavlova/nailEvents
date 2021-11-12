@@ -28,10 +28,10 @@ export default function Footer() {
             <p>{t("LOCATION")}</p>
           </div>
         </div>
-        <div className="footer__col-link padding">
+        <div className="footer__col-link">
           <MenuLinks additionalClasses="footer__col-item" />
         </div>
-        <div className="footer__col-local padding">
+        <div className="footer__col-local">
           <div className="footer__col-number">
             <p className="">{t("FOR_VISITORS")}, {t("MASTERS")}, {t("BUYERS")}:</p>
             <Number />
@@ -54,7 +54,7 @@ export default function Footer() {
                 <img src={process.env.PUBLIC_URL + '/images/my-foto.png'} alt="foto" />
               </div>
               <div className="footer__col-advertising-contact flex">
-                <a href="tel:+380687527904" className="fonts-white">+380687527904
+                <a href="tel:+380687527904" className="fonts-white">+380 68 752 79 04
                   <p className="fonts-white">Viber, Telegram</p>
                 </a>
               </div>
