@@ -7,19 +7,35 @@
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
+    @include for-phone-only {
+        background-image: url(./lets-mobile.jpg);
+        // background-position-x: right;
+        background-size: contain;
+    }
     &__text {
         padding: 60px 80px 0 0;
         text-align: end;
         @include for-phone-only {
-            padding: 30px 20px 0 0;
+            padding: 40px 20px 20px 0;
+            text-align: center;
+            .black-text {
+                color: black;
+            }
         }
     }
     &__subtitle {
         margin-left: 37%;
         padding-bottom: 25px;
+        @include for-phone-only {
+            margin-left: 29%;
+            padding-bottom: 45px;
+        }
     }
     &__item {
         padding-bottom: 20px;
+        @include for-phone-only {
+            padding: 25px;
+        }
         &_date {
             text-align: center;
             text-shadow: 0 0 2px greenyellow, 0 0 2px greenyellow, 0 0 6px #ff00de, 0 0 4px #ff00de, 0 0 6px #ff00de;
@@ -29,15 +45,40 @@
         }
         &-1 {
             margin-right: 75px;
+            @include for-phone-only {
+                margin-right: 0;
+                text-shadow: 0 0 2px white, 0 0 4px wheat, 0 0 7px white, 0 0 8px #ff00de, 0 0 10px #ff00de,
+                    0 0 12px #ff00de;
+            }
         }
         &-2 {
             margin-right: 175px;
+            @include for-phone-only {
+                margin-right: 0;
+                text-shadow: 0 0 2px white, 0 0 4px wheat, 0 0 7px white, 0 0 8px #ff00de, 0 0 10px #ff00de,
+                    0 0 12px #ff00de;
+            }
         }
         &-3 {
             margin-right: 285px;
+            @include for-phone-only {
+                margin-right: 0;
+                text-shadow: 0 0 2px white, 0 0 4px wheat, 0 0 7px white, 0 0 8px #ff00de, 0 0 10px #ff00de,
+                    0 0 12px #ff00de;
+            }
         }
         &-buy {
             margin-right: 30px;
+            @include for-phone-only {
+                margin-right: 0;
+                padding-bottom: 15px;
+            }
+        }
+    }
+    &__button {
+        @include for-phone-only {
+            display: flex;
+            justify-content: center;
         }
     }
     &__questions {
@@ -47,5 +88,12 @@
         border-radius: 10px;
         box-shadow: 1px 1px 1px #ff00de, 2px 2px 2px #ff00de, 4px 4px 4px #ff00de, 8px 8px 8px #ff00de,
             12px 12px 12px #ff00de;
+    }
+}
+.bonus-text {
+    @include for-phone-only {
+        font-weight: 600;
+        font-size: 19px;
+        line-height: 29px;
     }
 }

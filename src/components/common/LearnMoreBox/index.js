@@ -6,6 +6,6 @@ export default function LearnMoreBox(props) {
     const { t } = useTranslation();
     return <div className="learn-box flex">
         <div className="learn-box__title">{t(props.title)}</div>
-        <ButtonLearn additionalClasses={props.additionalClasses} textbtn={props.textbtn} />
+        <ButtonLearn additionalClasses={props.additionalClasses} textbtn={props.textbtn} link={props.link} />
     </div>
 }
