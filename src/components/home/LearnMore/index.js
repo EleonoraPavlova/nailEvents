@@ -12,6 +12,7 @@ const items = [
         title: 'LEARN_MORE1',
         classes: "learn-box__button-pink",
         textbtn: "LEARN_MORE_WRITE1",
+        link: "https://docs.google.com/forms/d/e/1FAIpQLSeAtG7FlUFD54UMLFp9GMN7FwGBhJTMjtq9xPFE6G5jX79UJA/viewform"
     },
     // {
     //     title: 'LEARN_MORE_US',
@@ -33,7 +34,7 @@ const items = [
 export default function LearnMore() {
     return (<div className="more">
         <div className="more__flex flex">
-            {items.map(item => <LearnMoreBox key={item.title} title={item.title} additionalClasses={item.classes} textbtn={item.textbtn} />)}
+            {items.map(item => <LearnMoreBox key={item.title} title={item.title} additionalClasses={item.classes} textbtn={item.textbtn} link={item.link} />)}
         </div>
     </div>)
 }
