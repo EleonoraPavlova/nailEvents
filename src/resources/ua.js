@@ -33,7 +33,7 @@ const localisation = {
     SAFETY_MEASURES: "Заходи безпеки",
     PROTECTION_MEANS: 'Заходи захисту',
     PROTECTION_MEANS_SUBTITLE: 'Вхід на конференцію тільки в масці. Наявність антисептиків по периметру приміщення',
-    TEMPERATURE_SCREENING: 'Температурний скрініг на вході.',
+    TEMPERATURE_SCREENING: 'Температурний скрініг на вході',
     TEMPERATURE_SCREENING_SUBTITLE: 'Вимірювання температури тіла кожному відвідувачу.',
     FOOD_TITLE: 'Безпечне харчування',
     FOOD_SUBTITLE: 'Під час кава-брейку кожній людині надається індівідуальний посуд',
