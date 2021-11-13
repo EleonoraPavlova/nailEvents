@@ -22,7 +22,7 @@ const items = [
     {
         title: 'LEARN_MORE_MASTER',
         classes: "learn-box__button-darkblue",
-        textbtn: "LEARN_MORE_WRITE3",
+        textbtn: "LEARN_JOIN",
     },
     {
         title: 'LEARN_MORE_LOGO',

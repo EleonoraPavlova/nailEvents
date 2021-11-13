@@ -28,7 +28,7 @@ const statistics = [
 
 export default function Statistics() {
     // const { t } = useTranslation();
-    return <div className="statistics wrapper">
+    return <div className="statistics">
         <div className="flex-between mobile-size">
             {statistics.map(statistic => <Statistic key={statistic.iconName} {...statistic} />)}
         </div>
