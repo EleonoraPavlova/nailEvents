@@ -97,3 +97,9 @@
         line-height: 29px;
     }
 }
+.text-shadow {
+    @include for-phone-only {
+        margin-right: 0;
+        text-shadow: 0 0 2px white, 0 0 4px wheat, 0 0 7px white, 0 0 8px #ff00de, 0 0 10px #ff00de, 0 0 12px #ff00de;
+    }
+}

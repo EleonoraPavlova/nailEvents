@@ -108,6 +108,9 @@
     padding: 8px 12px;
     color: $color-white;
     background-color: #cd00cd;
+    @include for-phone-only {
+      outline: none;
+    }
   }
   &__button-mobile {
     display: none;
@@ -120,6 +123,7 @@
       background-color: transparent;
       height: 30px;
       margin-top: 23px;
+      outline: none;
     }
   }
 }
@@ -130,5 +134,10 @@
     line-height: 21px;
     letter-spacing: 0;
     padding-left: 0;
+  }
+}
+.display-none {
+  @include for-phone-only {
+    display: none;
   }
 }

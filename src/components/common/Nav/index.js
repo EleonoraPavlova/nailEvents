@@ -37,7 +37,7 @@ export default function Navigation() {
               <p className="text-normal text-gray ">{t("BANNER_DATE")}</p>
             </div>
           </div>
-          <div className="navigationbar__nav-date flex">
+          <div className="navigationbar__nav-date flex display-none">
             <div className="navigationbar__nav-time">
               <img src={process.env.PUBLIC_URL + '/icon/time.png'} alt="time" target="_blank" />
             </div>
