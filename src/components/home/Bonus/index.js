@@ -9,10 +9,10 @@ export default function Bonus() {
             <div className="bonus__subtitle">
                 <p className="text-big">{t("BONUS")}</p>
             </div>
-            <div className="bonus__item bonus__item-1 black-text">
+            <div className="bonus__item text-shadow black-text">
                 <p className="text-big">{t("BONUS_GIFT1")}</p>
             </div>
-            <div className="bonus__item bonus__item-1 black-text">
+            <div className="bonus__item text-shadow  black-text">
                 <p className="text-big">{t("BONUS_TEXT")}</p>
             </div>
             <div className="bonus__item bonus__item-1 black-text">

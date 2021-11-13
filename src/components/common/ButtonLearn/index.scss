@@ -4,16 +4,17 @@
 .button-learn {
     background-repeat: no-repeat;
     background-size: contain;
-    width: 190px;
-    height: 60px;
+    width: 210px;
+    height: 70px;
     background-position: 50% 50%;
     &__button-inside {
         font-size: 10px;
         color: $color-white;
         text-transform: uppercase;
-        letter-spacing: 4px;
+        letter-spacing: 3px;
         background: transparent;
         font-weight: bolder;
+        line-height: 17px;
         &:hover {
             color: aqua;
         }

@@ -100,6 +100,7 @@
   }
   &__col-advertising-text {
     padding-bottom: 6px;
+    text-align: end;
     @include for-phone-only {
       text-align: center;
     }
