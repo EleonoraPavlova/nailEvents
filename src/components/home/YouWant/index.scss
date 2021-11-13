@@ -3,7 +3,7 @@
 
 .you-want {
     position: relative;
-    padding-bottom: 50px;
+    padding: 70px 0;
     &__left {
         display: grid;
         grid-template-columns: 40% 60%;
@@ -95,6 +95,11 @@
         }
     }
     &__agitation {
+        &-wrap {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+        }
         @include for-phone-only {
             text-align: center;
         }

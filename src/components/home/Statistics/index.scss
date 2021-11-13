@@ -2,6 +2,7 @@
 @import "../../../mixins.scss";
 
 .statistics {
+  background-color: #fffafa;
   padding: 65px 100px 110px 100px;
   @include for-phone-only {
     padding: 30px;

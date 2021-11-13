@@ -19,9 +19,9 @@ export default function Home() {
         <Header />
         <Organizer />
         <About />
+        <YouWant />
         {/* <Speakers /> */}
         <Statistics />
-        <YouWant />
         {/* <Program /> */}
         {/* <OurPartners /> */}
         {/* <Subscribe /> */}

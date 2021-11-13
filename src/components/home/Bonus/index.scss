@@ -16,7 +16,7 @@
         padding: 60px 80px 0 0;
         text-align: end;
         @include for-phone-only {
-            padding: 40px 20px;
+            padding: 25px 20px;
             text-align: center;
             .black-text {
                 color: black;
@@ -27,8 +27,8 @@
         margin-left: 37%;
         padding-bottom: 25px;
         @include for-phone-only {
-            margin-left: 29%;
-            padding-bottom: 45px;
+            margin-left: 23%;
+            padding-bottom: 40px;
         }
     }
     &__item {
