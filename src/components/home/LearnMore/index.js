@@ -12,7 +12,7 @@ const items = [
         title: 'LEARN_MORE1',
         classes: "learn-box__button-pink",
         textbtn: "LEARN_MORE_WRITE1",
-        link: "https://docs.google.com/forms/d/e/1FAIpQLSeAtG7FlUFD54UMLFp9GMN7FwGBhJTMjtq9xPFE6G5jX79UJA/viewform"
+        // link: "https://docs.google.com/forms/d/1wjp-v2rsrbP5UnlXPoLMS8nybmlSx0QAyuMz7IG05fY/viewform?edit_requested=true"
     },
     // {
     //     title: 'LEARN_MORE_US',
@@ -23,6 +23,7 @@ const items = [
         title: 'LEARN_MORE_MASTER',
         classes: "learn-box__button-darkblue",
         textbtn: "LEARN_JOIN",
+        link: "https://docs.google.com/forms/d/1wjp-v2rsrbP5UnlXPoLMS8nybmlSx0QAyuMz7IG05fY/viewform?edit_requested=true"
     },
     {
         title: 'LEARN_MORE_LOGO',

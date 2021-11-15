@@ -125,3 +125,8 @@
         line-height: 23px;
     }
 }
+.no-flex {
+    @include for-phone-only {
+        display: block;
+    }
+}
