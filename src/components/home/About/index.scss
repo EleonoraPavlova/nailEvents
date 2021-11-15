@@ -28,7 +28,7 @@
             padding: 20px;
             &:first-child p {
                 position: relative;
-                &:before  {
+                &:before {
                     position: absolute;
                     content: "";
                     display: block;
@@ -49,7 +49,7 @@
         &-check {
             margin-right: 25px;
             @include for-phone-only {
-                margin-right: 0;
+                margin-right: 10px;
             }
         }
     }
@@ -64,7 +64,6 @@
     //     top: 492px;
     //     left: 159px;
     // }
-    
 }
 .text-title {
     @include for-phone-only {

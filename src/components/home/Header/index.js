@@ -29,7 +29,7 @@ export default function Header() {
                     <div className="topbar__social-link flex-end">
                         <Socials />
                     </div>
-                    <div className="topbar__social-tel flex-end">
+                    <div className="topbar__social-tel flex-center">
                         <Number />
                     </div>
                 </div>
