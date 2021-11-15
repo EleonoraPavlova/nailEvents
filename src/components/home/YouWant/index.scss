@@ -95,6 +95,10 @@
         }
     }
     &__agitation {
+        flex-direction: column;
+        @include for-desktop-up {
+            flex-direction: row;
+        }
         &-wrap {
             display: flex;
             align-items: center;
@@ -119,10 +123,5 @@
     @include for-phone-only {
         font-size: 18px;
         line-height: 23px;
-    }
-}
-.no-flex {
-    @include for-phone-only {
-        display: inline;
     }
 }

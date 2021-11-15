@@ -13,24 +13,25 @@
     }
 
     .links-wrapper {
-      display: flex;
-      @include for-phone-only {
-        display: none;
-        &.visible {
-          z-index: 100;
-          display: flex;
-          flex-direction: column;
-          position: absolute;
-          background-color: #fff;
-          width: 90%;
-          top: 85px;
-          left: 5%;
-          border: 1px solid $base-color;
-          border-radius: 15px;
-          .navigationbar__box-item {
-            padding: 20px;
-            border-bottom: 1px solid #9a1f56;
-          }
+      @include for-desktop-up {
+        display: flex;
+      }
+
+      display: none;
+      &.visible {
+        z-index: 100;
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        background-color: #fff;
+        width: 90%;
+        top: 85px;
+        left: 5%;
+        border: 1px solid $base-color;
+        border-radius: 15px;
+        .navigationbar__box-item {
+          padding: 20px;
+          border-bottom: 1px solid #9a1f56;
         }
       }
     }
@@ -113,18 +114,19 @@
     }
   }
   &__button-mobile {
-    display: none;
+    @include for-desktop-up {
+      display: none;
+    }
     svg {
       stroke: #cd00cd;
       fill: #cd00cd;
     }
-    @include for-phone-only {
-      display: inline;
-      background-color: transparent;
-      height: 30px;
-      margin-top: 23px;
-      outline: none;
-    }
+
+    display: inline;
+    background-color: transparent;
+    height: 30px;
+    margin-top: 23px;
+    outline: none;
   }
 }
 .text-normal {

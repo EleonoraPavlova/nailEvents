@@ -26,6 +26,20 @@
         &-item {
             display: flex;
             padding: 20px;
+            &:first-child p {
+                position: relative;
+                &:before  {
+                    position: absolute;
+                    content: "";
+                    display: block;
+                    width: 25px;
+                    height: 25px;
+                    border-top: 1px solid #ffffff;
+                    border-right: 1px solid #ffffff;
+                    right: -10px;
+                    top: -10px;
+                }
+            }
             @include for-phone-only {
                 padding: 10px;
                 align-items: center;
@@ -50,22 +64,7 @@
     //     top: 492px;
     //     left: 159px;
     // }
-    &::before {
-        position: absolute;
-        content: "";
-        display: block;
-        width: 25px;
-        height: 25px;
-        border-top: 1px solid #ffffff;
-        border-right: 1px solid #ffffff;
-        top: 153px;
-        left: 934px;
-        @include for-phone-only {
-            top: 74px;
-            right: 30px;
-            left: unset;
-        }
-    }
+    
 }
 .text-title {
     @include for-phone-only {
