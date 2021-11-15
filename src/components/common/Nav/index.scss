@@ -71,12 +71,18 @@
   &__logo {
     width: 70px;
     height: 70px;
-    margin-top: 20px;
+    margin-top: 30px;
     margin-right: 30px;
     @include for-phone-only {
       width: 45px;
       height: 45px;
+      margin-top: 20px;
       margin-right: -20px;
+    }
+    @include for-tablet-portrait-up {
+      width: 55px;
+      height: 55px;
+      margin-right: 20px;
     }
   }
   &__box {
@@ -91,6 +97,9 @@
           padding-bottom: 3px;
           border-bottom: 1px solid $color-shadowy;
         }
+      }
+      @include for-tablet-portrait-up {
+        padding-right: 60px;
       }
     }
   }
