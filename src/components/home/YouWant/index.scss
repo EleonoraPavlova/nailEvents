@@ -95,9 +95,15 @@
         }
     }
     &__agitation {
-        flex-direction: column;
+        text-align: center;
+        // display: flex;
+        // flex-direction: column;
+        // align-items: center;
         @include for-desktop-up {
             flex-direction: row;
+        }
+        &-btns {
+            justify-content: center;
         }
         &-wrap {
             display: flex;

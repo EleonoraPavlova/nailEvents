@@ -60,7 +60,7 @@ const localisation = {
     LEARN_MORE_WRITE2: 'Співпрацювати',
     LEARN_MORE_MASTER: 'Досвідчений майстер чи новачок? Приєднуйся!',
     LEARN_JOIN: 'Приєднатися',
-    LEARN_MORE_WRITE3: 'Замовити зворотній зв\'язок',
+    LEARN_MORE_WRITE3: 'Зворотній зв\'язок',
     LEARN_MORE_LOGO: 'Хочеш, щоб усі бачили твоє лого? Спонсуй!',
     LEARN_MORE_WRITE4: 'Спонсорувати',
     YOU_WANT: 'Найсучасніший Fashion Day індустрії краси!',

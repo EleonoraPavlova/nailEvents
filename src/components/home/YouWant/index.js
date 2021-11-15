@@ -51,24 +51,30 @@ export default function YouWant() {
                         </div>
                     </li>
                 </ul>
-                <div className="you-want__agitation flex no-flex">
-                    <div className="you-want__agitation-box flex no-flex">
-                        <div className="you-want__agitation-wrap">
-                            <p className="text-big uppercase">{t("ORGANIZER_AGITATION")}</p>
-                            <p className="text-middle">{t("ORGANIZER_FOR")}</p>
+                <div className="you-want__agitation">
+                    <div>
+                        <p className="text-big uppercase">{t("ORGANIZER_AGITATION")}</p>
+                    </div>
+                    <div className="you-want__agitation-btns flex no-flex">
+                        <div className="you-want__agitation-box">
+                            <div className="you-want__agitation-button">
+                                <ButtonLearn additionalClasses="button-pink" textbtn={t("BUY_TICKET")} />
+                            </div>
                         </div>
-                        <div className="you-want__agitation-button">
-                            <ButtonLearn additionalClasses="button-pink" textbtn={t("BUY_TICKET")} />
+                        <div>
+                            <p className="text-big uppercase">{t("ORGANIZER_OR")}</p>
+                        </div>
+                        <div className="you-want__agitation-box">
+                            <div className="you-want__agitation-button">
+                                <a href="https://docs.google.com/forms/d/1wjp-v2rsrbP5UnlXPoLMS8nybmlSx0QAyuMz7IG05fY/viewform?edit_requested=true" rel="noreferrer" target="_blank">
+                                    <ButtonLearn additionalClasses="button-pink" textbtn={t("LEARN_MORE_WRITE3")} />
+                                </a>
+                            </div>
                         </div>
                     </div>
-                    <div className="you-want__agitation-box flex no-flex">
-                        <p className="text-big uppercase">{t("ORGANIZER_OR")}</p>
-                        <div className="you-want__agitation-button">
-                            <a href="https://docs.google.com/forms/d/1wjp-v2rsrbP5UnlXPoLMS8nybmlSx0QAyuMz7IG05fY/viewform?edit_requested=true" rel="noreferrer" target="_blank">
-                                <ButtonLearn additionalClasses="button-pink" textbtn={t("LEARN_MORE_WRITE3")} />
-                            </a>
-                        </div>
-                    </div>
+                </div>
+                <div className="you-want__agitation-wrap">
+                    <p className="text-middle">{t("ORGANIZER_FOR")}</p>
                 </div>
             </div>
         </div>
