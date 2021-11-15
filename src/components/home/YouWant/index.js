@@ -64,7 +64,7 @@ export default function YouWant() {
                     <div className="you-want__agitation-box flex no-flex">
                         <p className="text-big uppercase">{t("ORGANIZER_OR")}</p>
                         <div className="you-want__agitation-button">
-                            <a href="https://docs.google.com/forms/d/1j7z0twQhWixVOJJWPNoL81tv3L0PhJFMU5k2RtRhdLc/viewform?edit_requested=true" rel="noreferrer" target="_blank">
+                            <a href="https://docs.google.com/forms/d/1wjp-v2rsrbP5UnlXPoLMS8nybmlSx0QAyuMz7IG05fY/viewform?edit_requested=true" rel="noreferrer" target="_blank">
                                 <ButtonLearn additionalClasses="button-pink" textbtn={t("LEARN_MORE_WRITE3")} />
                             </a>
                         </div>
@@ -72,5 +72,5 @@ export default function YouWant() {
                 </div>
             </div>
         </div>
-    </div>
+    </div >
 }

@@ -17,6 +17,11 @@
             height: 255px;
             background-position-y: -5px;
         }
+        @include for-tablet-portrait-up {
+            padding: 0px 50px 18px 50px;
+            background-position-y: -47px;
+            background-position-x: 6px;
+        }
     }
     &__main {
         padding: 0 70px;
@@ -26,6 +31,9 @@
         &-about {
             font-weight: 600;
             line-height: 41px;
+        }
+        @include for-tablet-portrait-up {
+            line-height: 35px;
         }
     }
 
@@ -71,6 +79,10 @@
         @include for-phone-only {
             margin-bottom: 0;
         }
+        @include for-tablet-portrait-up {
+            margin-bottom: 100px;
+            padding-left: 10px;
+        }
         &-h1 {
             margin-bottom: 30px;
             @include for-phone-only {
@@ -85,6 +97,11 @@
                 line-height: 42px;
                 text-shadow: 0 0 3px #ffffff, 0 0 5px #ffffff, 0 0 6px #ff00de, 0 0 10px #ff00de;
             }
+            @include for-tablet-portrait-up {
+                font-size: 60px;
+                line-height: 51px;
+                text-shadow: 0 0 3px #ffffff, 0 0 5px #ffffff, 0 0 6px #ff00de, 0 0 10px #ff00de;
+            }
         }
         &-slogan {
             font-size: 20px;
@@ -97,6 +114,10 @@
                 line-height: 21px;
                 text-align: center;
             }
+            @include for-tablet-portrait-up {
+                margin-bottom: 20px;
+                font-size: 17px;
+            }
         }
         &-about {
             position: relative;
@@ -106,6 +127,9 @@
                 h4 {
                     width: 66%;
                 }
+            }
+            @include for-tablet-portrait-up {
+                width: 59%;
             }
             &::after {
                 position: absolute;
@@ -193,6 +217,10 @@ $topbar__social-wrap: 7;
         font-size: 10px;
         line-height: 25px;
         color: black;
+    }
+    @include for-tablet-portrait-up {
+        font-size: 29px;
+        line-height: 40px;
     }
 }
 .text-small {
