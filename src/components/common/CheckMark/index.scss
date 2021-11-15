@@ -3,7 +3,6 @@
 
 .check-mark {
     &__checkmark {
-        margin-right: 20px;
         width: 30px;
         height: 30px;
         border-radius: 50%;
@@ -17,7 +16,6 @@
             stroke-width: 3;
         }
         @include for-phone-only {
-            margin-right: 20px;
             width: 20px;
             height: 20px;
         }
