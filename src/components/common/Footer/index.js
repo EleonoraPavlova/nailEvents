@@ -51,21 +51,19 @@ export default function Footer() {
           <div className="footer__col-advertising-text">
             <p>{t("FOOTER_COL_ADVERTISING")} by Pavlova Eleonora</p>
           </div>
-          <div className="footer__col-advertising-inner">
-            <div className="footer__col-advertising-info">
-              <div className="footer__col-advertising-icon">
-                <img src={process.env.PUBLIC_URL + '/images/my-foto.png'} alt="foto" />
-              </div>
-              <div className="footer__col-advertising-contact flex no-flex">
-                <a href="tel:+380687527904" className="fonts-white">+380 68 752 79 04
-                  <p className="fonts-white">Viber, Telegram</p>
-                </a>
-              </div>
+          <div className="footer__col-advertising-infa flex">
+            <div className="footer__col-advertising-icon">
+              <img src={process.env.PUBLIC_URL + '/images/my-foto.png'} alt="foto" />
             </div>
-            <div className="footer__col-advertising-box flex-end">
+            <div className="footer__col-advertising-box flex">
               <div className="footer__col-advertising-insta">
                 <a href="https://www.instagram.com/pavl0vaelen/?hl=ru" target="_blank" rel="noreferrer">
                   <img src={process.env.PUBLIC_URL + '/icon/my-insta.svg'} alt="insta" className="icon-size-little" />
+                </a>
+              </div>
+              <div className="footer__col-advertising-telega">
+                <a href="https://t.me/eleon_pavlov" target="_blank" rel="noreferrer">
+                  <img src={process.env.PUBLIC_URL + '/icon/telegram.png'} alt="telegram" className="icon-size-little" />
                 </a>
               </div>
               <div className="footer__col-advertising-mail">
@@ -73,12 +71,12 @@ export default function Footer() {
                   <img src={process.env.PUBLIC_URL + '/icon/my-mail.svg'} alt="mail" className="icon-size-little" />
                 </a>
               </div>
-              <div className="footer__col-advertising-git">
+              <div className="footer__col-advertising-git display-none">
                 <a href="https://github.com/EleonoraPavlova" target="_blank" rel="noreferrer">
                   <img src={process.env.PUBLIC_URL + '/icon/my-github.svg'} alt="github" className="icon-size-little" />
                 </a>
               </div>
-              <div className="footer__col-advertising-skype">
+              <div className="footer__col-advertising-skype display-none">
                 <a href="https://join.skype.com/invite/Kf7ZnFPrzv6R" target="_blank" rel="noreferrer">
                   <img src={process.env.PUBLIC_URL + '/icon/skype.svg'} alt="skype" className="icon-size-little" />
                 </a>
@@ -86,11 +84,13 @@ export default function Footer() {
             </div>
           </div>
         </div>
-      </div>
-      <div className="footer__second-block" >
-        <p> ® 2021 All rights recerved.</p>
-      </div >
-    </div >
 
+      </div>
+      <div>
+        <div className="footer__second-block" >
+          <p> ® 2021 All rights recerved.</p>
+        </div >
+      </div>
+    </div>
   )
 }

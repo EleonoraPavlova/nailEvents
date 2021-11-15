@@ -32,6 +32,7 @@
         }
     }
     &__title {
+        text-align: center;
         letter-spacing: 3px;
         padding: 50px;
         text-shadow: 0 0 3px #ffffff, 0 0 5px #ffffff, 0 0 6px #ff00de, 0 0 10px #ff00de, 0 0 20px #ff00de;
@@ -61,7 +62,7 @@
             width: 180px;
             border-bottom: 3px solid #ff00de;
             border-radius: 5px;
-            right: 243px;
+            right: 17%;
             margin-bottom: 3px;
             @include for-phone-only {
                 display: none;

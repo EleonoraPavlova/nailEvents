@@ -11,6 +11,10 @@ const socials = [
         link: 'https://www.facebook.com/Nano-Tech-Beauty-105526615271644/?ref=pages_you_manage',
         iconName: 'facebook'
     },
+    {
+        link: 'https://t.me/tatialex',
+        iconName: 'telegram'
+    },
 ]
 
 export default function Socials() {

@@ -28,11 +28,11 @@
         padding-bottom: 25px;
         @include for-phone-only {
             margin-left: 23%;
-            padding-bottom: 40px;
+            padding-bottom: 30px;
         }
     }
     &__item {
-        padding-bottom: 20px;
+        padding-bottom: 60px;
         @include for-phone-only {
             padding: 25px;
         }
