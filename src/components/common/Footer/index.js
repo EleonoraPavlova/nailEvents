@@ -62,7 +62,7 @@ export default function Footer() {
                 </a>
               </div>
               <div className="footer__col-advertising-telega">
-                <a href="https://t.me/eleon_pavlov" target="_blank" rel="noreferrer">
+                <a href="https://t.me/eleon_pavlova" target="_blank" rel="noreferrer">
                   <img src={process.env.PUBLIC_URL + '/icon/telegram.png'} alt="telegram" className="icon-size-little" />
                 </a>
               </div>

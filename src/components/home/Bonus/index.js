@@ -24,7 +24,7 @@ export default function Bonus() {
             {/* <div className="bonus__item bonus__item-3 black-text">
                 <p className="text-big">{t("BONUS_TEXT3")}</p>
             </div> */}
-            <div className="bonus__item text-shadow black-text">
+            <div className="bonus__item margin text-shadow black-text">
                 <p className="text-big">{t("BONUS_TEXT4")}</p>
             </div>
             <div className="bonus__item bonus__item_date black-text">
