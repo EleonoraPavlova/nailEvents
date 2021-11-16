@@ -19,8 +19,8 @@
         }
         @include for-tablet-portrait-up {
             padding: 0px 50px 18px 50px;
-            background-position-y: -47px;
-            background-position-x: 6px;
+            background-position-y: -30px;
+            background-position-x: 24px;
         }
     }
     &__main {
@@ -50,6 +50,10 @@
                 border-radius: 20%;
                 padding-bottom: 0;
                 background: linear-gradient(3deg, #ff00de, transparent);
+            }
+            @include for-tablet-portrait-up {
+                background: transparent;
+                text-shadow: 0 0 3px #ffffff, 0 0 5px #ffffff, 0 0 6px #ff00de, 0 0 10px #ff00de, 0 0 13px #ff00de;
             }
             &:hover {
                 text-shadow: 0 0 3px #ffffff, 0 0 5px #ffffff, 0 0 6px #ff00de, 0 0 10px #ff00de, 0 0 13px #ff00de;
@@ -125,6 +129,7 @@
                 }
             }
             @include for-tablet-portrait-up {
+                padding-left: 17px;
                 width: 59%;
             }
             &::after {
@@ -139,6 +144,10 @@
                 left: -10px;
                 @include for-phone-only {
                     display: none;
+                }
+                @include for-tablet-portrait-up {
+                    top: 82%;
+                    left: 0%;
                 }
             }
         }
@@ -157,6 +166,10 @@
             width: 136px;
             height: 43px;
             background-size: contain;
+        }
+        @include for-tablet-portrait-up {
+            margin-top: 0;
+            margin-left: 0;
         }
         &-inside {
             color: $color-white;
@@ -180,6 +193,11 @@
         @include for-phone-only {
             padding-left: 50px;
             margin-top: 70px;
+        }
+        @include for-tablet-portrait-up {
+            padding-top: 70px;
+            margin-bottom: 50px;
+            align-items: center;
         }
     }
 }
@@ -215,8 +233,8 @@ $topbar__social-wrap: 7;
         color: black;
     }
     @include for-tablet-portrait-up {
-        font-size: 29px;
-        line-height: 40px;
+        font-size: 26px;
+        line-height: 33px;
     }
 }
 .text-small {

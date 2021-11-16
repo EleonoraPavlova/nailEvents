@@ -16,11 +16,18 @@
       grid-template-columns: 55% 45%;
       gap: 10px;
     }
+    @include for-tablet-portrait-up {
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 20px;
+    }
   }
   &__logo-wrapper {
     width: 30px;
     height: 30px;
     margin-right: 15px;
+    @include for-tablet-portrait-up {
+      margin-bottom: 20px;
+    }
   }
   &__desc {
     font-size: 12px;
@@ -28,8 +35,14 @@
     &-site {
       padding-bottom: 25px;
       padding-left: 45px;
+      @include for-tablet-portrait-up {
+        display: none;
+      }
     }
     @include for-phone-only {
+      display: none;
+    }
+    @include for-tablet-portrait-up {
       display: none;
     }
   }
@@ -54,6 +67,9 @@
         color: $color-white;
       }
       @include for-phone-only {
+        display: none;
+      }
+      @include for-tablet-portrait-up {
         display: none;
       }
     }
@@ -115,6 +131,9 @@
       width: 60px;
       height: 60px;
       margin-right: 15px;
+    }
+    @include for-tablet-portrait-up {
+      margin-right: 17px;
     }
     img {
       border-radius: 10%;

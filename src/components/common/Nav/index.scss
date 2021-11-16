@@ -159,4 +159,7 @@
   @include for-phone-only {
     display: none;
   }
+  @include for-tablet-portrait-up {
+    display: none;
+  }
 }

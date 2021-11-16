@@ -11,6 +11,9 @@
     @include for-phone-only {
         padding: 40px 20px;
     }
+    @include for-tablet-portrait-up {
+        padding: 30px 40px;
+    }
     &__flex {
         justify-content: space-evenly;
         @include for-phone-only {
