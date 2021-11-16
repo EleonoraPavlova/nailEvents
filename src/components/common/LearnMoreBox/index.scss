@@ -17,6 +17,10 @@
         height: 200px;
         margin-bottom: 30px;
     }
+    @include for-tablet-portrait-up {
+        width: 230px;
+        height: 180px;
+    }
     &:hover {
         background-color: $color-gray;
     }
@@ -28,6 +32,11 @@
         @include for-phone-only {
             padding-bottom: 14px;
             line-height: 28px;
+        }
+        @include for-tablet-portrait-up {
+            padding-bottom: 15px;
+            font-size: 18px;
+            line-height: 30px;
         }
     }
     &__button-blue {

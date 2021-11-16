@@ -19,4 +19,8 @@
             color: aqua;
         }
     }
+    @include for-tablet-portrait-up {
+        width: 185px;
+        height: 62px;
+    }
 }

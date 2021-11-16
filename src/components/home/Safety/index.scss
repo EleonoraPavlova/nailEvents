@@ -8,6 +8,9 @@
     @include for-phone-only {
       padding: 30px 20px;
     }
+    @include for-tablet-portrait-up {
+      padding: 30px 40px;
+    }
   }
   &__title {
     padding: 35px 0;
