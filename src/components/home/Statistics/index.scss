@@ -10,6 +10,9 @@
   @include for-tablet-portrait-up {
     padding: 40px;
   }
+  @include for-tablet-landscape-up {
+    padding: 65px 50px;
+  }
   &__wrapper {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -25,6 +28,9 @@
   }
   @include for-tablet-portrait-up {
     margin: 0 40px;
+  }
+  @include for-tablet-landscape-up {
+    margin: 0 50px;
   }
 }
 

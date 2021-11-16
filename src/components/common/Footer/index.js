@@ -29,7 +29,7 @@ export default function Footer() {
             <p>{t("LOCATION")}</p>
           </div>
         </div>
-        <div className="footer__col-link">
+        <div className="footer__col-link display-none">
           <MenuLinks additionalClasses="footer__col-item" />
         </div >
         <div className="footer__col-local">

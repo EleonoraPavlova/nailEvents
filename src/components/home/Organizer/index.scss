@@ -8,7 +8,11 @@
         margin-bottom: 25px;
     }
     @include for-tablet-portrait-up {
+        margin-right: 50px;
         padding-bottom: 35px;
+    }
+    @include for-tablet-landscape-up {
+        margin-right: 40px;
     }
     &__box {
         padding: 50px 0 0 50px;
@@ -20,11 +24,22 @@
             display: block;
         }
         @include for-tablet-portrait-up {
-            gap: 30px;
+            padding: 20px 0 0 50px;
+            grid-template-rows: 53% 47%;
+            grid-template-columns: none;
+            gap: 0;
+        }
+        @include for-tablet-landscape-up {
+            padding: 50px 0 40px 50px;
+            grid-template-rows: 60% 40%;
+            grid-template-columns: none;
         }
     }
     &__item-wrapper {
         background-size: cover;
+        @include for-tablet-portrait-up {
+            margin-bottom: 40px;
+        }
     }
     &__text {
         text-align: center;
