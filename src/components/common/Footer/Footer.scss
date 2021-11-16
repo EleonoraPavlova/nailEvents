@@ -20,6 +20,10 @@
       grid-template-columns: 1fr 1fr 1fr;
       gap: 20px;
     }
+    @include for-tablet-landscape-up {
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 30px;
+    }
   }
   &__logo-wrapper {
     width: 30px;
@@ -49,6 +53,9 @@
   &__site {
     font-size: 10px;
     @include for-phone-only {
+      display: none;
+    }
+    @include for-tablet-landscape-up {
       display: none;
     }
   }
@@ -93,11 +100,6 @@
         color: aqua;
       }
     }
-    // &-socials {
-    //   @include for-phone-only {
-    //     padding-left: 30px;
-    //   }
-    // }
     &-number {
       padding-bottom: 10px;
       a {

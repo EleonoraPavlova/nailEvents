@@ -15,12 +15,17 @@
             padding: 0px 8px 8px 0;
             background-image: url(./banner-mobile.png);
             height: 255px;
-            background-position-y: -5px;
+            background-position-y: 5px;
         }
         @include for-tablet-portrait-up {
-            padding: 0px 50px 18px 50px;
+            padding: 0px 30px 18px 50px;
             background-position-y: -30px;
-            background-position-x: 24px;
+            background-position-x: -114px;
+        }
+        @include for-tablet-landscape-up {
+            padding: 23px 40px 18px 40px;
+            background-position-y: 8px;
+            background-position-x: -199px;
         }
     }
     &__main {
@@ -118,6 +123,10 @@
                 margin-bottom: 20px;
                 font-size: 17px;
             }
+            @include for-tablet-landscape-up {
+                margin-bottom: 30px;
+                font-size: 17px;
+            }
         }
         &-about {
             position: relative;
@@ -132,6 +141,10 @@
                 padding-left: 17px;
                 width: 59%;
             }
+            @include for-tablet-landscape-up {
+                width: 50%;
+            }
+
             &::after {
                 position: absolute;
                 content: "";
@@ -146,8 +159,8 @@
                     display: none;
                 }
                 @include for-tablet-portrait-up {
-                    top: 82%;
-                    left: 0%;
+                    top: 89%;
+                    left: -3%;
                 }
             }
         }
@@ -170,6 +183,10 @@
         @include for-tablet-portrait-up {
             margin-top: 0;
             margin-left: 0;
+        }
+        @include for-tablet-landscape-up {
+            margin-top: 80px;
+            margin-left: 45px;
         }
         &-inside {
             color: $color-white;
@@ -236,7 +253,12 @@ $topbar__social-wrap: 7;
         font-size: 26px;
         line-height: 33px;
     }
+    @include for-tablet-landscape-up {
+        font-size: 30px;
+        line-height: 41px;
+    }
 }
+
 .text-small {
     @include for-phone-only {
         font-size: 9px;

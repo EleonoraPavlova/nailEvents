@@ -11,6 +11,9 @@
     @include for-tablet-portrait-up {
       padding: 30px 40px;
     }
+    @include for-tablet-landscape-up {
+      padding: 0 50px 50px 50px;
+    }
   }
   &__title {
     padding: 35px 0;

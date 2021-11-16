@@ -12,7 +12,7 @@ const socials = [
         iconName: 'facebook'
     },
     {
-        link: 'https://t.me/tatialex',
+        link: 'https://t.me/joinchat/-Qc3f0e3kUM1Y2Vi',
         iconName: 'telegram'
     },
 ]
