@@ -27,6 +27,10 @@
             background-position-y: 8px;
             background-position-x: -199px;
         }
+        @include for-desktop-up {
+            background-position-y: center;
+            background-position-x: left;
+        }
     }
     &__main {
         padding: 0 70px;
@@ -144,6 +148,9 @@
             @include for-tablet-landscape-up {
                 width: 50%;
             }
+            @include for-desktop-up {
+                width: 48%;
+            }
 
             &::after {
                 position: absolute;
@@ -187,6 +194,9 @@
         @include for-tablet-landscape-up {
             margin-top: 80px;
             margin-left: 45px;
+        }
+        @include for-desktop-up {
+            margin-left: 69px;
         }
         &-inside {
             color: $color-white;

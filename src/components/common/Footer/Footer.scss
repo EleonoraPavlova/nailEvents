@@ -24,6 +24,10 @@
       grid-template-columns: 1fr 1fr 1fr;
       gap: 30px;
     }
+    @include for-desktop-up {
+      gap: 30px;
+      grid-template-columns: 25% 15% 25% 27%;
+    }
   }
   &__logo-wrapper {
     width: 30px;
@@ -112,6 +116,9 @@
   &__col-advertising {
     &-infa {
       justify-content: space-evenly;
+      @include for-desktop-up {
+        justify-content: center;
+      }
     }
     @include for-phone-only {
       display: flex;
@@ -136,6 +143,9 @@
     }
     @include for-tablet-portrait-up {
       margin-right: 17px;
+    }
+    @include for-desktop-up {
+      margin-right: 15px;
     }
     img {
       border-radius: 10%;

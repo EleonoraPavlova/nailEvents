@@ -17,6 +17,9 @@
     @include for-tablet-landscape-up {
         background-position-x: -224px;
     }
+    @include for-desktop-up {
+        background-position-x: -162px;
+    }
     &__text {
         padding: 60px 80px 0 0;
         text-align: end;
@@ -32,6 +35,9 @@
         }
         @include for-tablet-landscape-up {
             padding: 50px 50px 0 0;
+        }
+        @include for-desktop-up {
+            padding: 50px 60px;
         }
     }
     &__subtitle {
