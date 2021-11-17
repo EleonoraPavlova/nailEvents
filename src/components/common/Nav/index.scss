@@ -134,6 +134,9 @@
     @include for-desktop-up {
       display: none;
     }
+    @include for-desktop-up {
+      display: none;
+    }
     svg {
       stroke: #cd00cd;
       fill: #cd00cd;

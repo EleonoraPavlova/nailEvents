@@ -62,6 +62,10 @@
         text-align: center;
         line-height: 27px;
         padding-bottom: 40px;
+        h6 {
+            border-bottom: 3px solid #ff00de;
+            display: inline-block;
+        }
         @include for-phone-only {
             font-size: 21px;
             font-weight: 600;
@@ -71,25 +75,6 @@
         }
         @include for-tablet-landscape-up {
             padding-bottom: 20px;
-        }
-        &::after {
-            position: absolute;
-            content: "";
-            display: block;
-            width: 180px;
-            border-bottom: 3px solid #ff00de;
-            border-radius: 5px;
-            right: 17%;
-            margin-bottom: 3px;
-            @include for-phone-only {
-                display: none;
-            }
-            @include for-tablet-portrait-up {
-                display: none;
-            }
-            @include for-tablet-landscape-up {
-                right: 18%;
-            }
         }
     }
     &__box {
@@ -158,5 +143,10 @@
 .no-flex {
     @include for-phone-only {
         display: block;
+    }
+}
+.text-middle {
+    @include for-desktop-up {
+        font-size: 17px;
     }
 }
