@@ -15,6 +15,10 @@
             stroke: $color-shadowy;
             stroke-width: 3;
         }
+        &.pink {
+            stroke: #ff00de;
+            stroke-width: 2;
+        }
         @include for-phone-only {
             width: 20px;
             height: 20px;

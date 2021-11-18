@@ -1,6 +1,5 @@
 import { useTranslation } from 'react-i18next';
 import './index.scss';
-
 import Measures from './Measures';
 
 export default function Safety() {  ///карантийные меры безопасности

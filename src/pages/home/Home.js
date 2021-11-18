@@ -12,7 +12,7 @@ import Map from "../../components/home/Map";
 import LearnMore from "../../components/home/LearnMore";
 import LetsGo from "../../components/home/Bonus";
 import ParticipationPackage from "../../components/home/ParticipationPackage";
-
+import Retailers from "../../components/home/Retailers";
 
 export default function Home() {
     return (<div>
@@ -27,6 +27,7 @@ export default function Home() {
         {/* <Subscribe /> */}
         <LearnMore />
         <ParticipationPackage />
+        <Retailers />
         <LetsGo />
         <Safety />
         <Map />
