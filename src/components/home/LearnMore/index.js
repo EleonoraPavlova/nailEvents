@@ -28,7 +28,8 @@ const items = [
     {
         title: 'LEARN_MORE_LOGO',
         classes: "learn-box__button-green",
-        textbtn: "LEARN_MORE_WRITE4",
+        textbtn: "REGISTRATION",
+        link: "https://docs.google.com/forms/d/1dNHdhsLAq3HIeO_ysfaQboEO_pHo7-bKVhn7GZI3cBg/edit"
     }
 ]
 

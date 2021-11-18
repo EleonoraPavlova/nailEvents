@@ -1,0 +1,58 @@
+@import "../../../variables.scss";
+@import "../../../mixins.scss";
+
+.retailers {
+    background: linear-gradient(
+        189deg,
+        rgba(255, 235, 238, 1) 0%,
+        #ff00de 10%,
+        rgba(187, 24, 148, 0.1) 22%,
+        rgba(190, 234, 237, 0.6) 70%
+    );
+    animation: gradient 6s infinite linear; // 10s - скорость анимации
+    background-size: 500%; // Можно менять и подбирать интенсивность
+    padding: 50px 120px;
+    @include for-phone-only {
+        padding: 35px 37px;
+    }
+
+    &__title {
+        padding-bottom: 30px;
+        text-align: center;
+    }
+    &__subtitle {
+        text-align: center;
+        line-height: 22px;
+        padding-bottom: 30px;
+        p {
+            padding-bottom: 3px;
+            border-bottom: 3px solid #ff00de;
+            display: inline-block;
+        }
+    }
+    &__item {
+        padding-bottom: 23px;
+        &-box {
+            margin-right: 20px;
+        }
+    }
+    &__button {
+        justify-content: center;
+    }
+}
+
+.button-green {
+    background-image: url(../../common/LearnMoreBox/button-green.png);
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 80% 0%;
+    }
+    50% {
+        background-position: 20% 100%;
+    }
+    100% {
+        background-position: 80% 0%;
+    }
+}
