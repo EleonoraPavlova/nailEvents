@@ -8,7 +8,9 @@
     border-radius: 19%;
     padding: 50px 120px;
     @include for-phone-only {
-        padding: 35px 37px;
+        padding: 30px 37px;
+        border-radius: 15%;
+        margin-bottom: 20px;
     }
 
     &__title {
