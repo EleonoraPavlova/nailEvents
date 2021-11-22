@@ -22,8 +22,8 @@ export default function Header() {
             </div>
             <div className="topbar__footer">
                 <div className="topbar__button flex-center">
-                    {/* < href="https://docs.google.com/forms/d/1j7z0twQhWixVOJJWPNoL81tv3L0PhJFMU5k2RtRhdLc/viewform?edit_requested=true" rel="noreferrer" target="_blank"> */}
-                    <button type="button" className="topbar__button-inside text-small">{t("BUY_TICKET")}</button>
+                    <a href="https://nano-tech-beauty.ticketforevent.com/" rel="noreferrer" target="_blank">
+                        <button type="button" className="topbar__button-inside text-small">{t("BUY_TICKET")}</button></a>
                 </div>
                 <div className="topbar__social">
                     <div className="topbar__social-link flex-end">
