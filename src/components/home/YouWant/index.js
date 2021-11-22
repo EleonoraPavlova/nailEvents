@@ -58,8 +58,7 @@ export default function YouWant() {
                     <div className="you-want__agitation-btns flex no-flex">
                         <div className="you-want__agitation-box">
                             <div className="you-want__agitation-button">
-                                <a href="https://nano-tech-beauty.ticketforevent.com/" rel="noreferrer" target="_blank">
-                                    <ButtonLearn additionalClasses="button-pink" textbtn={t("BUY_TICKET")} /></a>
+                                <ButtonLearn link="https://nano-tech-beauty.ticketforevent.com/" additionalClasses="button-pink" textbtn={t("BUY_TICKET")} />
                             </div>
                         </div>
                         <div>
@@ -67,9 +66,7 @@ export default function YouWant() {
                         </div>
                         <div className="you-want__agitation-box">
                             <div className="you-want__agitation-button">
-                                <a href="https://docs.google.com/forms/d/1wjp-v2rsrbP5UnlXPoLMS8nybmlSx0QAyuMz7IG05fY/viewform?edit_requested=true" rel="noreferrer" target="_blank">
-                                    <ButtonLearn additionalClasses="button-pink" textbtn={t("LEARN_MORE_WRITE3")} />
-                                </a>
+                                <ButtonLearn link="https://docs.google.com/forms/d/1wjp-v2rsrbP5UnlXPoLMS8nybmlSx0QAyuMz7IG05fY/viewform?edit_requested=true" additionalClasses="button-pink" textbtn={t("LEARN_MORE_WRITE3")} />
                             </div>
                         </div>
                     </div>

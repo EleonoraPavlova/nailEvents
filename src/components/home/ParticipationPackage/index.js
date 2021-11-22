@@ -48,9 +48,9 @@ export default function ParticipationPackage() {
       {items.map((item, index) => <ParticipationPackageItem key={index} index={index + 1} {...item} />)}
     </div>
     <div>
-      <a href="https://docs.google.com/forms/d/1j7z0twQhWixVOJJWPNoL81tv3L0PhJFMU5k2RtRhdLc/viewform?edit_requested=true" rel="noreferrer" target="_blank">
-        <ButtonLearn additionalClasses="button-pink participation__button" textbtn={t("CALC")} />
-      </a>
+
+      <ButtonLearn link="https://docs.google.com/forms/d/1j7z0twQhWixVOJJWPNoL81tv3L0PhJFMU5k2RtRhdLc/viewform?edit_requested=true" additionalClasses="button-pink participation__button" textbtn={t("CALC")} />
+
     </div>
   </div >
 }
