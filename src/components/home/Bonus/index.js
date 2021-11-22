@@ -35,12 +35,13 @@ export default function Bonus() {
                     <p className="text-big">{t("BONUS_TEXT6")}</p>
                 </div>
                 <div className="bonus__button">
-                    <ButtonLearn additionalClasses="button-pink bonus-shadow" textbtn={t("BUY_TICKET")} />
+                    <a href="https://nano-tech-beauty.ticketforevent.com/" rel="noreferrer" target="_blank">
+                        <ButtonLearn additionalClasses="button-pink bonus-shadow" textbtn={t("BUY_TICKET")} /></a>
                 </div>
             </div>
             <div className="bonus__questions black-text">
                 <p className="text-small">{t("LEARN_MORE")}</p>
             </div>
         </div>
-    </div>
+    </div >
 }

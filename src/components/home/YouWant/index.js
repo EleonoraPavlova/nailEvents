@@ -58,7 +58,8 @@ export default function YouWant() {
                     <div className="you-want__agitation-btns flex no-flex">
                         <div className="you-want__agitation-box">
                             <div className="you-want__agitation-button">
-                                <ButtonLearn additionalClasses="button-pink" textbtn={t("BUY_TICKET")} />
+                                <a href="https://nano-tech-beauty.ticketforevent.com/" rel="noreferrer" target="_blank">
+                                    <ButtonLearn additionalClasses="button-pink" textbtn={t("BUY_TICKET")} /></a>
                             </div>
                         </div>
                         <div>
