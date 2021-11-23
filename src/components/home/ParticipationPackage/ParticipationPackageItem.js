@@ -9,11 +9,11 @@ export default function ParticipationPackageItem(props) {
       <CircleNumber number={props.index} />
     </div>
 
-    <div className='participation-package-item__title'>{t(props.title)}</div>
+    {props.itemShown ? <div className='participation-package-item__title'>{t(props.title)}</div> : null}
     <div className="participation-package-item__description_wrapper">
-      <div className="participation-package-item__description">
+      <div className={`participation-package-item__description + ${props.additionalClasses}`}>
         {t(props.description)}
       </div>
     </div>
-  </div>
+  </div >
 }

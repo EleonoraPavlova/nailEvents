@@ -22,12 +22,12 @@ export default function Home() {
         <YouWant />
         {/* <Speakers /> */}
         <Statistics />
+        <Retailers />
         {/* <Program /> */}
         {/* <OurPartners /> */}
         {/* <Subscribe /> */}
-        <LearnMore />
         <ParticipationPackage />
-        <Retailers />
+        <LearnMore />
         <LetsGo />
         <Safety />
         <Map />

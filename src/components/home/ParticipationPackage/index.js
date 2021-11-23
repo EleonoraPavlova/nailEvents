@@ -45,7 +45,7 @@ export default function ParticipationPackage() {
       </div>
     </div>
     <div className="participation__items">
-      {items.map((item, index) => <ParticipationPackageItem key={index} index={index + 1} {...item} />)}
+      {items.map((item, index) => <ParticipationPackageItem key={index} index={index + 1} {...item} itemShown={true} />)}
     </div>
     <div>
 

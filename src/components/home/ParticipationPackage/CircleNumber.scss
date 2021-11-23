@@ -4,18 +4,25 @@
     border: 2px solid #d0d0e7;
     border-radius: 50%;
     padding: 3px;
+    &.retailers-circle {
+      border: 1px solid #7349b4;
+    }
   }
 
   &__inner {
-    width:50px;
+    width: 50px;
     height: 50px;
     border-radius: 50%;
     border: 5px solid #8989fd;
     font-size: 36px;
     background-color: #fff;
-    background: linear-gradient(45deg,#c24ecc, #7781e1);
+    background: linear-gradient(45deg, #c24ecc, #7781e1);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     text-align: center;
+    &.retailers-inner {
+      border: 1px solid transparent;
+      background-color: transparent;
+    }
   }
 }
