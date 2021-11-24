@@ -1,7 +1,22 @@
+@import "../../../mixins.scss";
+
 .participation-package-item {
   &__circle {
     position: relative;
     z-index: 1;
+    &.wrapper-circle {
+      top: -15px;
+      @include for-phone-only {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    }
+    @include for-tablet-portrait-up {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
   }
   &__title {
     padding: 10px 30px;
@@ -28,7 +43,9 @@
     border: 1px dashed #7349b4;
     padding: 10px;
     border-radius: 20px;
-    
+    @include for-tablet-portrait-up {
+      margin-bottom: 20px;
+    }
   }
   &__description {
     padding: 10px;

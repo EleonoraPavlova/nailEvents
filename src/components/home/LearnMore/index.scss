@@ -10,6 +10,7 @@
     padding: 70px 60px;
     @include for-phone-only {
         padding: 40px 20px;
+        background-position: center;
     }
     @include for-tablet-portrait-up {
         padding: 30px 40px;
