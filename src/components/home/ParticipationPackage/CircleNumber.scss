@@ -6,6 +6,8 @@
     padding: 3px;
     &.retailers-circle {
       border: 1px solid #7349b4;
+      padding: 5px;
+      background-color: transparent;
     }
   }
 
@@ -21,8 +23,12 @@
     -webkit-text-fill-color: transparent;
     text-align: center;
     &.retailers-inner {
-      border: 1px solid transparent;
-      background-color: transparent;
+      width: 75px;
+      height: 75px;
+      border: 1px solid #642c7c;
+      font-size: 64px;
+      font-weight: 900;
+      background-color: rgba(41, 19, 55, 0.3);
     }
   }
 }

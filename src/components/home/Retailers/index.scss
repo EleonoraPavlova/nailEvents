@@ -10,20 +10,36 @@
     padding: 50px 120px;
     color: white;
     flex-direction: column;
-    &__wrapper {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        padding: 60px 100px;
-        @include for-phone-only {
-            padding: 40px 20px;
-        }
-        @include for-desktop-up {
-            padding: 50px 30px;
-        }
+    @include for-phone-only {
+        padding: 30px 40px;
+        background-position: center;
     }
+    @include for-tablet-portrait-up {
+        padding: 50px 60px;
+        background-position: center;
+    }
+    @include for-tablet-landscape-up {
+        padding: 50px 80px;
+        background-position: center;
+    }
+    @include for-desktop-up {
+        padding: 50px 90px;
+        background-position: center;
+    }
+    // &__wrapper {
+    //     display: flex;
+    //     flex-direction: column;
+    //     align-items: center;
+    //     padding: 60px 100px;
+    //     @include for-phone-only {
+    //         padding: 40px 20px;
+    //     }
+    //     @include for-tablet-portrait-up {
+    //         padding: 50px 30px;
+    //     }
+    // }
     &__title {
-        width: 45%;
+        width: 63%;
         border: 1px solid #322a66;
         padding: 10px 30px;
         background-color: transparent;
@@ -31,44 +47,77 @@
         text-align: center;
         position: relative;
         margin-bottom: 20px;
+        @include for-phone-only {
+            width: 83%;
+            margin-bottom: 15px;
+        }
+        @include for-tablet-portrait-up {
+            width: 75%;
+        }
+        @include for-tablet-landscape-up {
+            width: 65%;
+        }
     }
+
     &__subtitle {
-        width: 36%;
+        width: 40%;
         border: 1px solid #322a66;
         padding: 10px 30px;
         background-color: transparent;
         border-radius: 50px;
         text-align: center;
         position: relative;
-        margin-bottom: 45px;
+        margin-bottom: 55px;
+        @include for-phone-only {
+            width: 83%;
+        }
+        @include for-tablet-portrait-up {
+            width: 75%;
+        }
+        @include for-tablet-landscape-up {
+            width: 50%;
+        }
         &::after {
             position: absolute;
             content: "";
-            height: 60px;
+            height: 45px;
             border: 1px dashed #7349b4;
             display: block;
             left: 50%;
-            bottom: -62px;
+            bottom: -47px;
+            @include for-phone-only {
+                height: 37px;
+                bottom: -41px;
+            }
+            @include for-tablet-portrait-up {
+                height: 38px;
+                bottom: -40px;
+            }
+            @include for-tablet-landscape-up {
+                height: 33px;
+                bottom: -39px;
+            }
         }
     }
 
     &__arrows-upper-wrapper {
-        width: 100%;
+        width: 78%;
         padding: 0 8%;
         display: none;
         @include for-desktop-up {
             display: block;
         }
     }
-    &__arrows-inner {
-        width: 80%;
-        height: 20px;
-        margin: -1px auto;
+    &__arrows {
+        width: 45%;
         border: 1px dashed #7349b4;
         border-bottom-color: transparent;
-        border-radius: 20px;
-        border-bottom-left-radius: 0;
-        border-bottom-right-radius: 0;
+    }
+    &__arrows-left {
+        margin-left: auto;
+    }
+    &__arrows-right {
+        margin-right: auto;
     }
     &__arrows-internal {
         width: 35%;
@@ -88,6 +137,10 @@
         grid-template-columns: repeat(3, 1fr);
         text-align: center;
         padding-bottom: 50px;
+        @include for-phone-only {
+            margin-bottom: 20px;
+            padding-bottom: 0;
+        }
         @include for-desktop-up {
             display: grid;
             grid-gap: 20px;
@@ -106,4 +159,11 @@
 
 .items-bg {
     background-color: rgba(95, 45, 117, 0.47);
+}
+
+.text-title-mobile {
+    @include for-phone-only {
+        font-size: 17px;
+        line-height: 25px;
+    }
 }
