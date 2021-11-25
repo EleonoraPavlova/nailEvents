@@ -23,7 +23,7 @@ const localisation = {
     STATISTICS_EXPERTS: "Top practicing speakers",
     SPEAKERS_TITLE: "industry tops",
     SPEAKER1: 'Irina Zaitseva',
-    SPEAKER1_DESC: 'Founder of the international project "Academy of Women\'s Wisdom". Etiquette teacher, television expert of top TV projects of Ukraine. Founder and organizer of "Mrs.Ukraine", co-organizer and member of the jury of international beauty contests',
+    SPEAKER1_DESC: 'Television expert of top TV projects of Ukraine. Founder and organizer of "Mrs. Ukraine", co-organizer and member of the jury of international beauty contests',
     SPEAKER2: 'Maria Plyakhovska',
     SPEAKER2_DESC: 'Professional coach, Isaak Pintosevich System. Public figure, successful businesswoman',
     PROGRAM_TITLE: 'In the forum program:',
