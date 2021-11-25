@@ -9,6 +9,7 @@
     }
     &__title {
         position: relative;
+        display: inline-block;
         margin-bottom: 49px;
         &::after {
             position: absolute;
@@ -29,7 +30,7 @@
             height: 15px;
             border-top: 1px solid $color-shadowy;
             border-right: 1px solid $color-shadowy;
-            left: 167px;
+            right: -10px;
             top: -5px;
         }
     }
