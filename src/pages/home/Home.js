@@ -1,7 +1,7 @@
 import Header from "../../components/home/Header";
 import Organizer from "../../components/home/Organizer";
 import About from "../../components/home/About";
-// import Speakers from "../../components/home/Speakers";
+import Speakers from "../../components/home/Speakers";
 import Statistics from "../../components/home/Statistics";
 import YouWant from "../../components/home/YouWant";
 // import OurPartners from "../../components/home/OurPartners";  // наши партнеры??
@@ -26,7 +26,7 @@ export default function Home() {
         {/* <OurPartners /> */}
         {/* <Subscribe /> */}
         <ParticipationPackage />
-        {/* <Speakers /> */}
+        <Speakers />
         <LearnMore />
         <LetsGo />
         <Safety />
