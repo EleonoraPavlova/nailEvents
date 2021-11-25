@@ -1,0 +1,45 @@
+@import "../../../variables.scss";
+@import "../../../mixins.scss";
+
+.speakers {
+    background-color: #fffafa;
+    padding: 55px 100px;
+    @include for-phone-only {
+        padding: 35px 40px;
+    }
+    &__title {
+        position: relative;
+        margin-bottom: 49px;
+        &::after {
+            position: absolute;
+            content: "";
+            display: block;
+            width: 15px;
+            height: 15px;
+            border-left: 1px solid $color-shadowy;
+            border-bottom: 1px solid $color-shadowy;
+            bottom: 0;
+            left: -10px;
+        }
+        &:before {
+            position: absolute;
+            content: "";
+            display: block;
+            width: 15px;
+            height: 15px;
+            border-top: 1px solid $color-shadowy;
+            border-right: 1px solid $color-shadowy;
+            left: 167px;
+            top: -5px;
+        }
+    }
+    &__box {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        column-gap: 50px;
+        @include for-phone-only {
+            display: flex;
+            flex-direction: column;
+        }
+    }
+}
