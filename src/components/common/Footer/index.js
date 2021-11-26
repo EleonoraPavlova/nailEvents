@@ -35,13 +35,14 @@ export default function Footer() {
         <div className="footer__col-local">
           <div className="box">
             <div className="footer__col-number">
-              <p className="">{t("FOR_VISITORS")}, {t("MASTERS")}, {t("BUYERS")}:</p>
+              <p className="">{t("FOR_VISITORS")}, {t("MASTERS")}, {t("BUYERS")};</p>
+              <p>{t("NAV_MENU_PARTICIPANTS")}:</p>
               <Number />
             </div>
-            <div className="footer__col-number">
-              <p className="">{t("NAV_MENU_PARTICIPANTS")}:</p>
+            {/* <div className="footer__col-number">
+              <p className="">:</p>
               <a href="tel:+380963191102" className="text-middle fonts-white">+38 096 319 1102</a>
-            </div>
+            </div> */}
             <div className="footer__col-socials">
               <Socials />
             </div>
