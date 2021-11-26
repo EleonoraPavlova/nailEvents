@@ -73,7 +73,6 @@ const localisation = {
     LEARN_JOIN: 'Приєднатися',
     LEARN_MORE_WRITE3: 'Зворотній зв\'язок',
     LEARN_MORE_LOGO: 'Маєш точку продажу? Це твоя територія!',
-    LEARN_MORE_WRITE4: 'Спонсорувати',
     YOU_WANT: 'Найсучасніший Fashion Day індустрії краси!',
     YOU_WANT1: 'Якщо ви прагнете:',
     YOU_WANT2: 'дізнатися першими про тренди сезону 2022',
