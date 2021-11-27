@@ -74,6 +74,9 @@ export default function YouWant() {
                 <div className="you-want__agitation-wrap">
                     <p className="text-middle">{t("ORGANIZER_FOR")}</p>
                 </div>
+                <div className="you-want__agitation-wrap">
+                    <p className="text-big uppercase">{t("ORGANIZER_PRICE")}</p>
+                </div>
             </div>
         </div>
     </div >
