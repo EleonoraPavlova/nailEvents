@@ -3,7 +3,7 @@
 
 .you-want {
     position: relative;
-    padding: 70px 0;
+    padding: 70px 0 30px 0;
     &__left {
         display: grid;
         grid-template-columns: 40% 60%;
@@ -28,7 +28,6 @@
         background-repeat: no-repeat;
         background-size: cover;
         background-position-x: center;
-        margin-bottom: 40px;
         border-radius: 6%;
         @include for-phone-only {
             background-image: url(./man-mobile.png);
@@ -118,6 +117,7 @@
             display: flex;
             align-items: center;
             flex-direction: column;
+            padding-bottom: 40px;
         }
         @include for-phone-only {
             text-align: center;
