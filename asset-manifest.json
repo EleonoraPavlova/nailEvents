@@ -1,26 +1,32 @@
 {
   "files": {
-    "main.css": "/static/css/main.0b4fda9b.chunk.css",
-    "main.js": "/static/js/main.321e331b.chunk.js",
-    "main.js.map": "/static/js/main.321e331b.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.d005e2f5.js",
-    "runtime-main.js.map": "/static/js/runtime-main.d005e2f5.js.map",
-    "static/js/2.4f3f723e.chunk.js": "/static/js/2.4f3f723e.chunk.js",
-    "static/js/2.4f3f723e.chunk.js.map": "/static/js/2.4f3f723e.chunk.js.map",
-    "static/js/3.98b2d8fb.chunk.js": "/static/js/3.98b2d8fb.chunk.js",
-    "static/js/3.98b2d8fb.chunk.js.map": "/static/js/3.98b2d8fb.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/main.0b4fda9b.chunk.css.map": "/static/css/main.0b4fda9b.chunk.css.map",
-    "static/js/2.4f3f723e.chunk.js.LICENSE.txt": "/static/js/2.4f3f723e.chunk.js.LICENSE.txt",
-    "static/media/App.scss": "/static/media/Roboto-Regular.a8d6ac03.ttf",
-    "static/media/index.scss": "/static/media/man.a978911b.png",
-    "static/media/close.98dee245.svg": "/static/media/close.98dee245.svg",
-    "static/media/menu.d3f57e28.svg": "/static/media/menu.d3f57e28.svg"
+    "main.css": "/nailEvents/static/css/main.c42b4226.css",
+    "main.js": "/nailEvents/static/js/main.9acc3e29.js",
+    "static/js/496.0e49fd48.chunk.js": "/nailEvents/static/js/496.0e49fd48.chunk.js",
+    "static/media/bg.png": "/nailEvents/static/media/bg.66a2659f5bb787097c0e.png",
+    "static/media/man.png": "/nailEvents/static/media/man.a978911b4f9f23889a90.png",
+    "static/media/banner-mobile.png": "/nailEvents/static/media/banner-mobile.ae821ebc3ca75b1103b3.png",
+    "static/media/about-banner.jpg": "/nailEvents/static/media/about-banner.2734fa87daa50293872c.jpg",
+    "static/media/banner.jpg": "/nailEvents/static/media/banner.a74ba1e0a7408963dfd5.jpg",
+    "static/media/Roboto-Medium.ttf": "/nailEvents/static/media/Roboto-Medium.7429a63c09f79a1760b0.ttf",
+    "static/media/Roboto-Regular.ttf": "/nailEvents/static/media/Roboto-Regular.a8d6ac03c7b96b7acb62.ttf",
+    "static/media/Roboto-Black.ttf": "/nailEvents/static/media/Roboto-Black.2a4285847db4a9acb97f.ttf",
+    "static/media/Roboto-Bold.ttf": "/nailEvents/static/media/Roboto-Bold.75371f53f06181df75f1.ttf",
+    "static/media/Roboto-Light.ttf": "/nailEvents/static/media/Roboto-Light.8be2d1487420548b3b8d.ttf",
+    "static/media/man-mobile.png": "/nailEvents/static/media/man-mobile.c81a68938a96abd463f7.png",
+    "static/media/lets-banner.jpg": "/nailEvents/static/media/lets-banner.ca503c6ad5069dc357c1.jpg",
+    "static/media/lets-mobile.jpg": "/nailEvents/static/media/lets-mobile.1a35bd464c0195225c8e.jpg",
+    "static/media/about-banner-mobile.jpg": "/nailEvents/static/media/about-banner-mobile.bb18d781a6eac3a80383.jpg",
+    "static/media/button-bg.png": "/nailEvents/static/media/button-bg.51e8b28aa84c99dce200.png",
+    "index.html": "/nailEvents/index.html",
+    "static/media/close.svg": "/nailEvents/static/media/close.98dee245718a21adf238c5ccaf6d2d4d.svg",
+    "static/media/menu.svg": "/nailEvents/static/media/menu.d3f57e28b68ad0f32a845bb90d7838aa.svg",
+    "main.c42b4226.css.map": "/nailEvents/static/css/main.c42b4226.css.map",
+    "main.9acc3e29.js.map": "/nailEvents/static/js/main.9acc3e29.js.map",
+    "496.0e49fd48.chunk.js.map": "/nailEvents/static/js/496.0e49fd48.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.d005e2f5.js",
-    "static/js/2.4f3f723e.chunk.js",
-    "static/css/main.0b4fda9b.chunk.css",
-    "static/js/main.321e331b.chunk.js"
+    "static/css/main.c42b4226.css",
+    "static/js/main.9acc3e29.js"
   ]
 }
