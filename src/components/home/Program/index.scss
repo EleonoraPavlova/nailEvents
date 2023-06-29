@@ -3,6 +3,9 @@
 
 .program {
     margin-bottom: 80px;
+    @include for-phone-only {
+        margin-bottom: 50px;
+    }
     &__wrap-title {
         padding: 70px 0 40px 0;
     }
@@ -13,13 +16,17 @@
         line-height: 25px;
         letter-spacing: 5px;
         color: $color-shadowy;
-        text-shadow: 0 0 5px #ffffff, 0 0 20px #ffffff, 0 0 40px #ff00de, 0 0 80px #ff00de, 0 0 90px #ff00de,
-            0 0 100px #ff00de, 0 0 150px #ff00de;
+        text-shadow: 0 0 5px #ffffff, 0 0 20px #ffffff, 0 0 30px #ff00de, 0 0 35px #ff00de, 0 0 40px #ff00de,
+            0 0 50px #ff00de, 0 0 60px #ff00de;
+        @include for-phone-only {
+            font-size: 33px;
+            line-height: normal;
+        }
     }
     &__button {
         width: 200px;
         height: 65px;
         border-radius: 20px;
-        background: linear-gradient(85deg, #fb63f9, #c2e534);
+        background: linear-gradient(21deg, #dd03e4, #5611ec);
     }
 }

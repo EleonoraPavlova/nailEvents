@@ -8,7 +8,7 @@ import YouWant from "../../components/home/YouWant";
 // import Subscribe from "../../components/home/Subscribe";  // подписка инста- розыгрыш
 import Safety from "../../components/home/Safety";
 import Map from "../../components/home/Map";
-// import Program from "../../components/home/Program";
+import Program from "../../components/home/Program";
 import LearnMore from "../../components/home/LearnMore";
 import LetsGo from "../../components/home/Bonus";
 import ParticipationPackage from "../../components/home/ParticipationPackage";
@@ -22,9 +22,9 @@ export default function Home() {
         <YouWant />
         <Statistics />
         <Retailers />
-        {/* <Program /> */}
-        {/* <OurPartners /> */}
-        {/* <Subscribe /> */}
+        <Program />
+        {/* <OurPartners />
+        <Subscribe /> */}
         <ParticipationPackage />
         <Speakers />
         <LearnMore />
