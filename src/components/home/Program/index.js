@@ -6,33 +6,32 @@ import './index.scss';
 
 const items = [
   {
-    timeSlot: '10:00-11:00',
+    timeSlot: '09:00-10:00',
     title: 'PROGRAM_ITEM',
-
   },
   {
-    timeSlot: '09:00-10:00',
+    timeSlot: '10:00-10:30',
     title: 'PROGRAM_ITEM1',
   },
   {
-    timeSlot: '10:00-10:10',
+    timeSlot: '10:30-11:30',
     title: 'PROGRAM_ITEM2',
   },
   {
-    timeSlot: '10:00-11:00',
+    timeSlot: '11:30-13:00',
     title: 'PROGRAM_ITEM3',
   },
   {
-    timeSlot: '10:00-11:00',
+    timeSlot: '13:00-14:00',
+    title: 'PROGRAM_ITEM7',
+  },
+  {
+    timeSlot: '14:00-16:00',
+    title: 'PROGRAM_ITEM4',
+  },
+  {
+    timeSlot: '16:00-18:00',
     title: 'PROGRAM_ITEM3',
-  },
-  {
-    timeSlot: '10:00-11:00',
-    title: 'PROGRAM_ITEM4',
-  },
-  {
-    timeSlot: '10:00-11:00',
-    title: 'PROGRAM_ITEM4',
   },
   {
     timeSlot: '18:00-20:00',
@@ -56,7 +55,7 @@ export default function Program() {
     </div>
     {target.map(slot => <ProgramItem key={slot.title} {...slot} />)}
     <div className="flex-center">
-      <button onClick={() => setIsShown(!isShown)} className="program__button text-normal fonts-white">{t(isShown ? 'BUTTON_CLICK' : 'BUTTON_ALL')}</button>
+      <button onClick={() => setIsShown(!isShown)} className="program__button text-normal program-item__text fonts-white">{t(isShown ? 'BUTTON_CLICK' : 'BUTTON_ALL')}</button>
     </div>
   </div>);
 }

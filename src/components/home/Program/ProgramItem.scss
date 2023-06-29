@@ -5,6 +5,10 @@
     &__box {
         padding-left: 13%;
         padding-bottom: 35px;
+        @include for-phone-only {
+            padding-left: 7%;
+            padding-bottom: 45px;
+        }
     }
     &__time {
         width: 190px;
@@ -12,5 +16,14 @@
         border-radius: 10px;
         background: linear-gradient(21deg, #dd03e4, #5611ec);
         margin-right: 5%;
+        @include for-phone-only {
+            width: 130px;
+            height: 65px;
+        }
+    }
+    &__text {
+        @include for-phone-only {
+            font-size: 13px !important;
+        }
     }
 }

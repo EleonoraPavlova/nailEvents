@@ -21,6 +21,9 @@
         width: 230px;
         height: 180px;
     }
+    @include for-tablet-landscape-up {
+        width: 255px;
+    }
     &:hover {
         background-color: $color-gray;
     }

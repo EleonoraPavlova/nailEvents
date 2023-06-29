@@ -6,8 +6,8 @@ export default function ProgramItem(props) {
 
   return (<div className="program-item__box flex">
     <div className="program-item__time flex-center">
-      <div className="text-normal fonts-white">{props.timeSlot}</div>
+      <div className="text-normal program-item__text fonts-white">{props.timeSlot}</div>
     </div>
-    <div className="text-normal">{t(props.title)}</div>
+    <div className="text-normal program-item__text">{t(props.title)}</div>
   </div>)
 }
